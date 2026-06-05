@@ -1,0 +1,848 @@
+
+=== PAGE 1 ===
+Comparación del diseño estructural de un galpón de acero en base
+a la actualización de la norma sísmica (NCh2369) y la norma de
+viento (NCh432)
+Presentación N°2: Segundo Avance (70 %) — Para optar al Título de Ingeniero
+Civil en Obras Civiles
+Bruno Alonso Franco Sentis
+Cristofer Walter Bordones Armijo
+Profesor Guía: Jorge Pi Luco
+Comisión: Luis Leiva Aravena, Fernando Ibáñez Lara
+Departamento de Ingeniería en Obras Civiles
+05 de Junio de 2026
+
+=== PAGE 2 ===
+TABLA DE CONTENIDOS
+1 Resumen Presentación N°1
+2 Metodología
+3 Recopilación de antecedentes
+4 Descripción de la Nave F
+5 Levantamiento en terreno
+6 Discrepancia planos vs construido
+7 Sistema estructural y materialidad
+8 Modelo SAP2000
+9 Cargas y combinaciones
+10 Viento: NCh432.Of1971
+11 Viento: NCh432:2025
+12 Viento: zonificación y presiones
+13 Viento: solicitaciones globales
+14 Sismo: NCh2369.Of2003
+15 Sismo: NCh2369:2025
+16 Sismo: comparación de espectros
+17 Resultados: modos y reacciones
+18 Resultados: cortes basales
+19 Resultados: desplazamientos
+20 Resultados: factores de utilización
+21 Análisis comparativo
+22 Conclusiones
+
+=== PAGE 3 ===
+RESUMEN N°1: EL PROYECTO Y EL PROBLEMA
+Caso de estudio: Nave F, galpón industrial
+de acero (Metalpar, Maipú), recepcionado el
+año 2025.
+Diseñado con normas oficiales:
+NCh2369.Of2003 (sismo) y NCh432.Of1971
+(viento).
+Ambas normas se actualizaron en 2025; gran
+parte del parque industrial existente fue
+diseñado con las versiones antiguas.
+Problema: ¿cómo cambian las solicitaciones
+de diseño y la carga que gobierna al aplicar
+las versiones 2025?
+Figura 1: Galpón industrial de acero
+(tipología de estudio).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+3 / 35
+
+=== PAGE 4 ===
+RESUMEN N°1: OBJETIVOS E HIPÓTESIS
+Objetivo general: comparar la respuesta estructural de la Nave F ante sismo y viento
+bajo el marco normativo original y sus actualizaciones 2025 (cortes basales,
+desplazamientos, F.U. y solicitaciones).
+Objetivos específicos:
+Levantar la estructura (geometría, perfiles,
+sistema).
+Determinar acciones de sismo y viento en
+ambos marcos.
+Modelar en SAP2000 y obtener la respuesta
+global.
+Verificar elementos principales (F.U. y
+conexiones).
+Proponer adecuación conceptual donde no
+cumpla.
+Hipótesis
+La NCh432:2025 (viento) reduce las presiones
+para este sitio; la NCh2369:2025 (sismo)
+aumenta las solicitaciones. Se presume un
+cambio de la carga dominante: de viento a
+sismo.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+4 / 35
+
+=== PAGE 5 ===
+RESUMEN N°1: ALCANCES, LIMITACIONES Y MÉTODO
+Alcances:
+Acero A270 ES (principales) / A36
+(secundarios).
+Diseño AISI S100 / NCh427/2
+(conformados en frío).
+Sismo NCh2369 2003 y 2025; viento
+NCh432 1971 y 2025.
+Verificación de elementos principales.
+Limitaciones:
+Sin análisis de costos ni de
+fundaciones/suelos.
+Refuerzos a nivel conceptual.
+Materiales estimados (sin ensayos).
+SAP2000 v24.2.0 sin espectros 2025 ⇒
+ingreso manual.
+El método de trabajo (levantamiento →análisis normativo →modelación →comparación) se
+detalla a continuación.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+5 / 35
+
+=== PAGE 6 ===
+METODOLOGÍA
+1
+Recopilación de antecedentes
+2
+Análisis normativo
+3
+Modelación estructural
+4
+Comparación de resultados
+5
+Conclusiones y recomendaciones
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+6 / 35
+
+=== PAGE 7 ===
+METODOLOGÍA
+ETAPA 1
+Recopilación de antecedentes
+Simultáneo
+Investigación normativa
+NCh2369 y NCh432
+(versiones oficial y 2025)
+Levantamiento en terreno
+Geometría, perfiles,
+conexiones, materialidad
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+7 / 35
+
+=== PAGE 8 ===
+METODOLOGÍA
+ETAPA 2
+Análisis normativo
+Simultáneo
+Análisis NCh432
+Cargas de viento
+Versión oficial vs 2025
+Análisis NCh2369
+Cargas sísmicas
+Versión oficial vs 2025
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+8 / 35
+
+=== PAGE 9 ===
+METODOLOGÍA
+ETAPA 3
+Modelación estructural
+Simultáneo
+Modelo SAP2000
+Galpón con
+normativa oficial
+Modelo SAP2000
+Galpón con normativa
+actualizada 2025
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+9 / 35
+
+=== PAGE 10 ===
+METODOLOGÍA
+ETAPA 4
+Comparación de resultados
+Análisis comparativo de la respuesta estructural
+Cortes
+basales
+Variación por
+norma
+Desplaza-
+mientos máx.
+Derivas de
+entrepiso
+Factores de
+utilización
+Capacidad vs
+demanda
+Diseño de
+conexiones
+Evaluación de
+refuerzo
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+10 / 35
+
+=== PAGE 11 ===
+METODOLOGÍA
+ETAPA 5
+Cierre
+Conclusiones y recomendaciones
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+11 / 35
+
+=== PAGE 12 ===
+RECOPILACIÓN DE ANTECEDENTES
+Punto de partida: planos estructurales y
+memoria de cálculo original (PLG
+Ingenieros, 2023).
+Corroboración de la geometría con planos
+As-Built e IFC (AutoCAD).
+Normas del diseño original:
+NCh2369.Of2003 (sismo), NCh432.Of1971
+(viento), NCh3171, NCh1537, NCh431.
+Materialidad original: acero A42-27ES (≡
+A270 ES); pernos de unión A325,
+secundarios A307, anclaje A36.
+Estos antecedentes se replican para
+construir el modelo de la condición
+instalada.
+Figura 2: Planimetría estructural original —
+elevaciones (AutoCAD).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+12 / 35
+
+=== PAGE 13 ===
+DESCRIPCIÓN: UBICACIÓN Y ANTECEDENTES
+Propietario: Metalpar.
+Ubicación: Camino Melipilla
+N°9236, Maipú (R.M.).
+Año de recepción: 2025.
+Galpón industrial de acero, planta
+rectangular 50 × 83,5 m (≈4.175
+m2).
+10 marcos transversales; luz
+transversal de 50 m.
+Figura 3: Vista general de la Nave F.
+Figura 4: Ubicación (Maipú).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+13 / 35
+
+=== PAGE 14 ===
+GEOMETRÍA: PLANTA Y ELEVACIÓN
+Figura 5: Planta de ejes — 10 marcos, separación 10 m (1.er vano 6,5 m; último 7 m).
+Figura 6: Elevación transversal tipo — hombro 7,53 m, cumbrera 8,85 m; dos aguas (θ ≈3,02◦).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+14 / 35
+
+=== PAGE 15 ===
+LEVANTAMIENTO EN TERRENO
+Visita a terreno: 11 de enero de
+2026. Inspección visual, medición
+directa y registro fotográfico
+sistemático.
+Cotas: huincha métrica y medición
+láser.
+Espesores en secciones cerradas:
+medidor ultrasónico (pulso-eco);
+espesores visibles con pie de metro
+digital.
+Producto: modelo IFC (BIM) que
+reproduce la condición instalada.
+Figura 7: Modelo IFC (3D) de la Nave F a partir del
+levantamiento.
+Figura 8: Registro fotográfico (riostras y pilares).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+15 / 35
+
+=== PAGE 16 ===
+DISCREPANCIA: PLANOS VS CONSTRUIDO
+El contraste planos vs condición construida arrojó dos hallazgos (en rojo, lo que difiere del
+proyecto):
+Pilares de hastial (ejes 1 y 10):
+proyectados J2 →ejecutados
+como P2 ([ ] 150×150×3).
+Vigas longitudinales: PT1 solo en
+ejes 2-3 y 8-9; el resto, PT2.
+Ambas diferencias se incorporan al
+modelo (representa la estructura
+realmente instalada).
+Figura 9: Planta construida (P2 en rojo).
+Figura 10: Elevación A-G (PT2 en rojo).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+16 / 35
+
+=== PAGE 17 ===
+SISTEMA ESTRUCTURAL Y MATERIALIDAD
+Figura 11: Sistema resistente identificado
+en terreno.
+Perfiles principales (relevados):
+Marca
+Elemento
+Perfil
+P1
+Pilar principal
+TB 550×200×4×3
+V1
+Cabio de techo
+TB 550×200×4×3
+V2
+Cabio reforzado
+TB 550×200×5×3
+J1/PT1
+Postes/tensores
+TBC 250×150×3
+P2
+Pilar en terreno
+[ ] 150×150×3
+D1/RT
+Diag./riostras
+[ ] 150×150×3
+Materialidad: acero A270 ES (≡ASTM A36,
+Fy 250 / Fu 400 MPa); pernos de unión A325,
+anclaje A36; diseño bajo AISI S100 / NCh427/2.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+17 / 35
+
+=== PAGE 18 ===
+MODELO ESTRUCTURAL EN SAP2000
+Modelo 3D con elementos frame
+(barras): columnas, vigas, correas y
+arriostramientos; bases empotradas.
+Dos modelos idénticos en geometría,
+secciones y cargas gravitacionales;
+difieren solo en espectros y presiones.
+Análisis modal espectral (CQC) +
+SRSS; ξ = 0,03.
+Dos escenarios de carga (misma geometría y
+secciones):
+Instalado: NCh2369.Of2003 +
+NCh432.Of1971.
+Actualizado: NCh2369:2025 +
+NCh432:2025.
+Figura 12: Modelo SAP2000 — vista 3D.
+Figura 13: Elevación transversal del modelo.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+18 / 35
+
+=== PAGE 19 ===
+CARGAS GRAVITACIONALES Y COMBINACIONES
+Cargas de diseño (memoria original):
+Acción
+Valor
+Peso propio (D)
+calculado por SAP2000
+Cubierta KR-8 (D)
+5,85 kg/m2
+Sobrecarga techo (L)
+100 →53 kg/m2 (reducible)
+Nieve (S)
+25 kg/m2 (< SC)
+Viento (W)
+§ viento (1971 / 2025)
+Sismo (E)
+§ sismo (2003 / 2025)
+Combinaciones de carga:
+Según NCh3171 + combinaciones sísmicas
+de NCh2369.
+Patrones: PP, CM_CUB, CM_MURO, L, S,
+Lr, Wx, Wy, Ex, Ey, Ez.
+Combinaciones generadas en SAP2000: 46
+(Instalado) vs 214 (Actualizado).
+El fuerte aumento en 2025 refleja la
+tridimensionalidad (casos Ex-a, Ey-a y
+componente vertical Ez).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+19 / 35
+
+=== PAGE 20 ===
+VIENTO — NCh432.Of1971
+Norma oficial (DS N°994/1971); presión
+básica uniforme, sin zonificación
+geográfica.
+q = u2/16 [kgf/m2]; variación en altura
+px = ph (x/h)2α (α = 0,28 urbano).
+Cargas por coeficientes de forma C
+(Figura 9): muro barlovento +0,80,
+sotavento −0,40, cubierta 1,2 sen θ −0,4.
+Sitio Nave F: q = 65,92 kgf/m2.
+Figura 14: Presión q vs altura (campo abierto /
+ciudad).
+Figura 15: Coeficientes de forma sobre cubiertas
+(Anexo Fig. 9, NCh432.Of1971).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+20 / 35
+
+=== PAGE 21 ===
+VIENTO — NCh432:2025
+3.a edición (jun 2025), base ASCE/SEI
+7-22; procedimiento direccional.
+qz = 0,613 KzKztKdKe V 2. Sitio: Zona
+III-A, V = 34 m/s; Exposición B;
+Kd = 0,85, G = 0,85 ⇒qh = 51,00
+kgf/m2.
+Edificio cerrado (GCpi = ±0,18); Cp por
+superficie y zonificación de cubierta (h/2,
+h, 2h, resto).
+Figura 16: Presiones netas sobre la Nave F
+(NCh432:2025).
+Figura 17: Coeficientes de presión externa Cp,
+SPRFV (Fig. 4, NCh432:2025).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+21 / 35
+
+=== PAGE 22 ===
+VIENTO — ZONIFICACIÓN Y PRESIONES
+Figura 18: qz por zona — 1971 (uniforme,
+65,92) vs 2025 (zonificada). Zona III-A: 51,00
+kgf/m2 (R = 0,77, −23 %).
+Presión neta por superficie (kgf/m2):
+Superficie
+1971
+2025
+∆
+Muro barlovento
++52,74
++37,28
+↓29 %
+Muro sotavento
+−26,37
+−21,07
+↓20 %
+Muros laterales
+—
+−33,60
+nuevo
+Succión en cubierta por zona (R = 2025/1971):
+Zona
+1971
+2025
+R
+0 a h/2
+−26,37
+−40,97
+1,55
+h/2 a h
+−26,37
+−40,97
+1,55
+h a 2h
+−26,37
+−26,23
+0,99
+> 2h
+−26,37
+−18,86
+0,72
+La 2025 intensifica la succión de borde y alivia la
+zona central.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+22 / 35
+
+=== PAGE 23 ===
+VIENTO — SOLICITACIONES GLOBALES
+Comparación de solicitaciones globales (tonf) — envolvente 1971 vs 2025:
+Solicitación
+NCh432.Of1971
+NCh432:2025
+∆%
+Corte horizontal dir. X (P
+Fx)
+32,86
+13,03
+↓60 %
+Corte horizontal dir. Y (P
+Fy)
+55,07
+18,23
+↓67 %
+Levantamiento cubierta, viento X (P
+Fz)
+103,20
+99,03
+↓4 %
+Levantamiento cubierta, viento Y (P
+Fz)
+112,22
+90,93
+↓19 %
+El corte horizontal cae fuertemente (−60 a −67 %): menor q en Zona III-A, descuento de
+presión interior (GCpi) y zonificación de succiones.
+El levantamiento de cubierta se mantiene casi equivalente (−4 a −19 %): la mayor succión
+de borde de la norma 2025 lo compensa.
+Atención: en el borde de cubierta (zonas h/2) la succión 2025 supera a la de 1971
+(R = 1,55) ⇒nueva verificación local.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+23 / 35
+
+=== PAGE 24 ===
+SISMO — NCh2369.Of2003
+Norma sísmica industrial vigente > 2
+décadas; sistemas dúctiles y control de
+desplazamientos.
+Análisis modal espectral: Sa según zona,
+suelo y período; demanda reducida por
+R, amplificada por I.
+Combinaciones sísmicas 100/30.
+Parámetros del sitio — Nave F
+Zona sísmica
+2 (A0 = 0,30g)
+Factor R / Importancia I
+4 / 1,00
+Amortiguamiento ξ
+0,03
+Smáx
+a
+≈0,27g
+Figura 19: Espectro de diseño NCh2369.Of2003
+(sitio de Maipú).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+24 / 35
+
+=== PAGE 25 ===
+SISMO — NCh2369:2025 (NOVEDADES)
+Oficializada por Decreto Exento N°12
+(MINVU); vigencia obligatoria
+9-sep-2026.
+Nueva clasificación de suelos (6 tipos,
+Vs30).
+Factor de respuesta efectivo R1, factor
+vertical Rv y espectros diferenciados por
+dirección.
+Combinaciones con amplificación sísmica
+(casos Ex-a, Ey-a) y componente Ez.
+Parámetros — Nave F (modelo)
+Zona / A0
+2 / 0,30g
+R / Rv
+4 / 2
+Periodos T ∗
+T ∗
+x = 0,22; T ∗
+y = 0,34 s
+Figura 20: Espectro de diseño NCh2369:2025.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+25 / 35
+
+=== PAGE 26 ===
+SISMO — COMPARACIÓN DE ESPECTROS
+La figura contrasta los espectros de diseño
+de ambas versiones, destacando las zonas
+de incremento y reducción.
+El efecto neto sobre la estructura se mide
+por el corte basal y los factores de
+utilización (sección Resultados).
+En el rango de períodos de la Nave F
+(T ≈0,22–0,34 s), la demanda de
+verificación aumenta por las
+combinaciones amplificadas (0,7R1) de la
+norma 2025.
+Figura 21: Comparación de espectros NCh2369
+Of.2003 vs 2025.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+26 / 35
+
+=== PAGE 27 ===
+RESULTADOS: MODOS Y REACCIONES EN LA BASE
+Participación de masa modal (común):
+Dir.
+Modo / T (s)
+Masa
+X (UX)
+40 / 0,225
+38,95 %
+Y (UY)
+29 / 0,344
+55,18 %
+Z (UZ)
+60 / 0,019
+52,75 %
+P
+UX=99,7 %; P
+UY=100 %;
+P
+UZ=93,1 %. Periodos cortos ⇒
+estructura rígida.
+Reacciones en la base — modelo Instalado
+(tonf):
+Caso
+Fx
+Fy
+Fz
+Sismo Ex
+9,23
+—
+—
+Sismo Ey
+—
+15,55
+—
+Sismo Ez
+—
+—
+14,20
+Viento Wx
+32,37
+—
+109,4 ↑
+Viento Wy
+—
+49,90
+100,8 ↑
+El viento genera el mayor corte horizontal y un
+fuerte levantamiento (Fz) de la cubierta.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+27 / 35
+
+=== PAGE 28 ===
+RESULTADOS: CORTES BASALES Y CARGA DOMINANTE
+Corte basal sísmico (tonf) — SAP2000
+Dir.
+Of.2003
+:2025
+:2025 (0,7R1)
+X
+9,23
+12,87 ↑39 %
+35,83
+Y
+15,55
+20,89 ↑34 %
+58,48
+Corte horizontal de viento (tonf)
+Dir.
+Of.1971
+:2025
+X
+32,86
+13,03 ↓60 %
+Y
+55,07
+18,23 ↓67 %
+Hallazgo clave: cambio de carga dominante
+Original: gobierna el VIENTO
+(Wy = 55,1 ≫Ey = 15,6 tonf).
+Actualizado: el viento cae a 18,2 tonf y
+el sismo sube; Ey = 20,9 (esp.) / 58,5
+(amplif.) supera al viento.
+⇒la carga dominante pasa de viento a
+sismo, confirmando la hipótesis.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+28 / 35
+
+=== PAGE 29 ===
+RESULTADOS: DESPLAZAMIENTOS
+Desplazamientos absolutos máximos por caso (mm) — SAP2000:
+Acción
+Caso
+Modelo Instalado
+Modelo Actualizado
+Sismo X
+espectral (Ex)
+18,68
+40,41
+amplificado (Ex-a)
+—
+112,50
+Sismo Y
+espectral (Ey)
+23,51
+25,85
+amplificado (Ey-a)
+—
+72,39
+Viento X
+Wx
+16,17
+(corte ↓60–67 %)
+Viento Y
+Wy
+12,05
+Los desplazamientos sísmicos aumentan con la norma 2025; los casos amplificados (0,7R1)
+rigen la verificación de deformaciones.
+Los desplazamientos por viento disminuyen en línea con la reducción de las solicitaciones de
+viento.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+29 / 35
+
+=== PAGE 30 ===
+RESULTADOS: FACTORES DE UTILIZACIÓN (DCR)
+Grupo
+Perfil
+DCR Instalado
+DCR Actualizado
+Estado 2025
+Columnas 1
+TB 550×200×4×3
+1,45
+1,46
+FALLA
+Columnas 2
+[ ] 150×150×3
+2,16
+1,53
+FALLA
+Columnas 3
+TBC 250×150×3
+0,21
+0,67
+OK
+Diagonal hor.
+[ ] 150×150×3
+1,01
+1,10
+FALLA
+Diagonal vert.
+[ ] 150×150×3
+1,23
+2,33
+FALLA
+Vigas 1
+TB 550×200×5×3
+1,35
+1,35
+FALLA
+Vigas 2
+TBC 250×150×3
+0,10
+0,40
+OK
+Verificación PMM (AISC 360); FALLA indica DCR > 1,0 (306 barras, 2-pass).
+Las diagonales verticales casi duplican su DCR (1,23→2,33): pasan a ser gobernadas por el
+sismo amplificado.
+Columnas 2 bajan (2,16→1,53) por la reducción del viento, pero siguen sin cumplir; las
+vigas se mantienen (cargas gravitacionales).
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+30 / 35
+
+=== PAGE 31 ===
+ANÁLISIS COMPARATIVO (INSTALADO vs ACTUALIZADO)
+Indicador
+Instalado
+Actualizado
+Variación
+Corte basal sísmico Y (tonf)
+15,55
+20,89
+↑34 %
+Corte basal sísmico Y, amplif. (tonf)
+—
+58,48
+—
+Corte horizontal viento Y (tonf)
+55,07
+18,23
+↓67 %
+Desplazamiento sísmico Y (mm)
+23,51
+25,85
+↑10 %
+DCR máx. (diagonal vertical)
+1,23
+2,33
+↑90 %
+Carga dominante
+Viento
+Sismo
+—
+Sismo (NCh2369): la demanda aumenta (corte basal +34 a +39 %; mucho más con la
+amplificación 0,7R1).
+Viento (NCh432): la demanda lateral disminuye −60 a −67 % en la Zona III-A.
+Cambio de carga dominante: de viento (Instalado) a sismo (Actualizado).
+Elementos críticos: columnas y diagonales verticales superan DCR > 1,0 bajo 2025 ⇒
+requieren adecuación.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+31 / 35
+
+=== PAGE 32 ===
+CONCLUSIONES
+Se completó el levantamiento (con su modelo IFC), la modelación SAP2000 de
+ambos escenarios y la obtención de resultados reales comparables.
+La actualización 2025 aumenta la demanda sísmica (+34 a +39 % en corte basal) y
+reduce la de viento (−60 a −67 %), confirmando la hipótesis.
+Se verifica el cambio de carga dominante de viento a sismo.
+Varios elementos principales (columnas y diagonales) presentan DCR > 1,0 bajo la
+norma 2025, identificando los puntos que requieren adecuación conceptual.
+El levantamiento detectó diferencias entre planos y lo construido (P2 y PT1/PT2),
+incorporadas al modelo para una comparación representativa.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+32 / 35
+
+=== PAGE 33 ===
+REFERENCIAS
+Normas Chilenas (INN)
+Instituto Nacional de Normalización (1971). NCh432 Of.1971: Acción del viento sobre las
+construcciones. Santiago: INN.
+—— (2003). NCh2369 Of.2003: Diseño sísmico de estructuras e instalaciones industriales.
+Santiago: INN.
+—— (2017). NCh3171:2017: Combinaciones de carga. Santiago: INN.
+—— (2019). NCh427/2:2019: Diseño y construcción en acero — Parte 2: Estructuras con
+elementos conformados en frío. Santiago: INN.
+—— (2025a). NCh2369:2025: Diseño sísmico de estructuras e instalaciones industriales.
+Santiago: INN.
+—— (2025b). NCh432:2025: Diseño estructural — Cargas de viento. Santiago: INN.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+33 / 35
+
+=== PAGE 34 ===
+REFERENCIAS
+Normas Internacionales y Libro de Texto
+American Institute of Steel Construction (2022). ANSI/AISC 360-22: Specification for
+Structural Steel Buildings. Chicago: AISC.
+American Iron and Steel Institute (2016). AISI S100-16: North American Specification for
+the Design of Cold-Formed Steel Structural Members. Washington: AISI.
+—— (2020). AISI S100-16 with Supplement 3 (2020). Washington: AISI.
+ASTM International (2019). ASTM A36/A36M-19: Standard Specification for Carbon
+Structural Steel. West Conshohocken: ASTM.
+Computers and Structures Inc. (2020). CSI Analysis Reference Manual for SAP2000.
+Berkeley: CSI.
+Pi Luco, J. (s.f.). Diseño de Estructuras de Acero con Análisis y Aplicaciones basado en
+ANSI/AISC360 y AISI S100. 1.a ed. Santiago.
+Presentación N°2 — Avance 70 %
+B. Franco, C. Bordones
+34 / 35
+
+=== PAGE 35 ===
+Comparación del diseño estructural de un galpón de acero en base
+a la actualización de la norma sísmica (NCh2369) y la norma de
+viento (NCh432)
+Presentación N°2: Segundo Avance (70 %) — Para optar al Título de Ingeniero
+Civil en Obras Civiles
+Bruno Alonso Franco Sentis
+Cristofer Walter Bordones Armijo
+Profesor Guía: Jorge Pi Luco
+Comisión: Luis Leiva Aravena, Fernando Ibáñez Lara
+Departamento de Ingeniería en Obras Civiles
+05 de Junio de 2026
