@@ -42,9 +42,9 @@
 \setbeamercolor{alerted text}{fg=blue!75!black}
 \setbeamercolor{block title}{bg=blue!20}
 
-% Lamina.png: zona blanca inicia en 25.9mm → 3.5cm (35mm, buffer 9mm)
-% textwidth = 160 - 35 - 3 = 122mm
-\setbeamersize{text margin left=3.5cm, text margin right=0.3cm}
+% Lamina.png: zona blanca inicia en 25.9mm; margen ajustado para coincidir con borde rojo
+% textwidth = 160 - 26 - 4 = 130mm
+\setbeamersize{text margin left=2.6cm, text margin right=0.4cm}
 
 %------------------------------------------------------------------
 % BIBLIOGRAFÍA
@@ -57,12 +57,12 @@
 %\AtEveryBibitem{\clearfield{url}\clearfield{urldate}}
 
 %------------------------------------------------------------------
-% PIE DE PÁGINA (alineado con el margen izquierdo del texto)
+% PIE DE PÁGINA (alineado con el borde izquierdo del área roja)
 %------------------------------------------------------------------
 \setbeamercolor{footline bar}{bg=white,fg=black}
 \setbeamertemplate{footline}{%
   \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex,%
-      leftskip=3.5cm,rightskip=0.3cm]{footline bar}%
+      leftskip=2.6cm,rightskip=0.4cm]{footline bar}%
     {\color{black}\usebeamerfont{author in head/foot}%
     Presentación N°2 — Avance 70\,\text{\%}\hfill\insertshortauthor\hfill%
     \insertframenumber{} / \inserttotalframenumber}%
@@ -73,19 +73,32 @@
 \setbeamerfont{caption}{size=\scriptsize}
 
 %------------------------------------------------------------------
-% FRAMETITLE: centrado en la zona blanca
+% FRAMETITLE: centrado en la zona roja de referencia
 %------------------------------------------------------------------
 \setbeamertemplate{frametitle}{%
   \nointerlineskip%
   \begin{beamercolorbox}[wd=\paperwidth,sep=0.3cm]{frametitle}%
     \usebeamerfont{frametitle}%
-    \hspace{3.2cm}%
-    \makebox[\dimexpr\paperwidth-3.5cm-0.3cm\relax][c]{%
+    \hspace{2.3cm}%
+    \makebox[\dimexpr\paperwidth-2.6cm-0.4cm\relax][c]{%
       \underline{\insertframetitle}%
     }%
   \end{beamercolorbox}%
 }
 \newcommand{\ctitle}[1]{\frametitle{#1}}
+
+% Pie de página para frames [plain] (portada, TOC, contraportada)
+\newcommand{\addplainfoot}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south,inner sep=0] at (current page.south){%
+      \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex,%
+          leftskip=2.6cm,rightskip=0.4cm]{footline bar}%
+        {\color{black}\usebeamerfont{author in head/foot}%
+        Presentación N°2 — Avance 70\,\text{\%}\hfill\insertshortauthor\hfill%
+        \insertframenumber{} / \inserttotalframenumber}%
+      \end{beamercolorbox}};
+  \end{tikzpicture}%
+}
 
 %------------------------------------------------------------------
 % DATOS DEL DOCUMENTO
@@ -118,6 +131,7 @@ Civil en Obras Civiles}}
 \begin{frame}[plain]
   \vspace*{0.9cm}
   \titlepage
+  \addplainfoot
 \end{frame}
 
 %------------------------------------------------------------------
@@ -128,6 +142,7 @@ Civil en Obras Civiles}}
   \begin{multicols}{2}
     \tableofcontents
   \end{multicols}
+  \addplainfoot
 \end{frame}
 
 %==================================================================
@@ -160,7 +175,7 @@ Civil en Obras Civiles}}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=4.2cm,keepaspectratio]%
     {slide03_fig01.png}\\[1mm]
-  {\scriptsize Figura 1: Galpón industrial de acero\\(tipología de estudio). Fuente: Elaboración propia.}
+  {\scriptsize Figura 1: Galpón industrial de acero\\(tipología de estudio).\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -292,7 +307,7 @@ detalla a continuación.}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=4.2cm,keepaspectratio]%
     {slide12_fig02.png}\\[1mm]
-  {\scriptsize Figura 2: Elevaciones planos de maestranza. Fuente: Elaboración propia.}
+  {\scriptsize Figura 2: Elevaciones planos de maestranza.\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -323,10 +338,10 @@ detalla a continuación.}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=2.8cm,keepaspectratio]%
     {slide13_fig03.png}\\[1mm]
-  {\scriptsize Figura 3: Vista general de la Nave~F. Fuente: Elaboración propia.}\\[2mm]
+  {\scriptsize Figura 3: Vista general de la Nave~F.\\ Fuente: Elaboración propia.}\\[2mm]
   \includegraphics[width=0.7\linewidth,height=2.5cm,keepaspectratio]%
     {slide13_fig04.png}\\[1mm]
-  {\scriptsize Figura 4: Ubicación (Maipú). Fuente: Elaboración propia.}
+  {\scriptsize Figura 4: Ubicación (Maipú).\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -339,13 +354,13 @@ detalla a continuación.}
 \begin{center}
   \includegraphics[width=0.65\textwidth,height=2.8cm,keepaspectratio]%
     {slide14_fig05.png.png}\\[1mm]
-  {\scriptsize Figura 5: Planta de ejes --- 10 marcos, separación 10~m (1.\textsuperscript{er} vano 6,5~m; último 7~m). Fuente: Elaboración propia.}
+  {\scriptsize Figura 5: Planta de ejes --- 10 marcos, separación 10~m (1.\textsuperscript{er} vano 6,5~m; último 7~m).\\ Fuente: Elaboración propia.}
 \end{center}
 \vspace{1mm}
 \begin{center}
   \includegraphics[width=0.65\textwidth,height=2.2cm,keepaspectratio]%
     {slide14_fig06.png}\\[1mm]
-  {\scriptsize Figura 6: Elevación transversal tipo --- hombro 7,53~m, cumbrera 8,85~m; dos aguas ($\theta \approx 3{,}02^\circ$). Fuente: Elaboración propia.}
+  {\scriptsize Figura 6: Elevación transversal tipo --- hombro 7,53~m, cumbrera 8,85~m; dos aguas ($\theta \approx 3{,}02^\circ$).\\ Fuente: Elaboración propia.}
 \end{center}
 \end{frame}
 
@@ -379,10 +394,10 @@ detalla a continuación.}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=2.6cm,keepaspectratio]%
     {slide15_fig07.png}\\[1mm]
-  {\scriptsize Figura 7: Modelo de la Nave F (Metalpar). Fuente: Elaboración propia.}\\[2mm]
+  {\scriptsize Figura 7: Modelo de la Nave F (Metalpar).\\ Fuente: Elaboración propia.}\\[2mm]
   \includegraphics[width=0.6\linewidth,height=1.8cm,keepaspectratio]%
     {slide15_fig08.png}\\[1mm]
-  {\scriptsize Figura 8: Registro fotográfico - riostras y pilares. Fuente: Elaboración propia.}
+  {\scriptsize Figura 8: Registro fotográfico - riostras y pilares.\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -414,10 +429,10 @@ proyecto):}
   \centering\vspace{-2mm}
   \includegraphics[width=\linewidth,height=1.9cm,keepaspectratio]%
     {slide16_fig09.png}\\[1mm]
-  {\scriptsize Figura 9: Planta construida (P2 en rojo). Fuente: Elaboración propia.}\\[0mm]
+  {\scriptsize Figura 9: Planta construida (P2 en rojo).\\ Fuente: Elaboración propia.}\\[0mm]
   \includegraphics[width=\linewidth,height=1.4cm,keepaspectratio]%
     {slide16_fig10.png}\\[1mm]
-  {\scriptsize Figura 10: Elevación A-G (PT2 en rojo). Fuente: Elaboración propia.}
+  {\scriptsize Figura 10: Elevación A-G (PT2 en rojo).\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -435,7 +450,7 @@ proyecto):}
   \centering\vspace{3mm}
   \includegraphics[width=\linewidth,height=4.0cm,keepaspectratio]%
     {fig_lt01.png}\\[1mm]
-  {\scriptsize Figura 11: Sistema resistente identificado\\en terreno. Fuente: Elaboración propia.}
+  {\scriptsize Figura 11: Sistema resistente identificado\\en terreno.\\ Fuente: Elaboración propia.}
   \column{0.55\textwidth}
   \vspace{1mm}
   {\footnotesize\textbf{Perfiles principales (relevados):}}\\[2mm]
@@ -493,10 +508,10 @@ proyecto):}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=2.6cm,keepaspectratio]%
     {slide16_img6.png}\\[1mm]
-  {\scriptsize Figura 12: Modelo SAP2000 --- vista 3D. Fuente: Elaboración propia.}\\[1mm]
+  {\scriptsize Figura 12: Modelo SAP2000 --- vista 3D.\\ Fuente: Elaboración propia.}\\[1mm]
   \includegraphics[width=\linewidth,height=2.0cm,keepaspectratio]%
     {slide16_img7.png}\\[1mm]
-  {\scriptsize Figura 13: Elevación transversal del modelo. Fuente: Elaboración propia.}
+  {\scriptsize Figura 13: Elevación transversal del modelo.\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -583,7 +598,7 @@ fue oficializada en 2024.}}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=5.8cm,keepaspectratio]%
     {fig02.png}\\[1mm]
-  {\scriptsize Figura 14: Presión $q$ vs altura (campo abierto / ciudad). Fuente: Elaboración propia.}
+  {\scriptsize Figura 14: Presión $q$ vs altura (campo abierto / ciudad).\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -596,7 +611,7 @@ fue oficializada en 2024.}}
 \begin{center}
   \includegraphics[width=0.80\linewidth,height=0.74\textheight,keepaspectratio]%
     {nch71_fig9.png}\\[1mm]
-  {\scriptsize Figura 15: Coeficientes de forma sobre cubiertas (Anexo Fig. 9, NCh432.Of1971). Fuente: NCh432.Of1971.}
+  {\scriptsize Figura 15: Coeficientes de forma sobre cubiertas (Anexo Fig. 9, NCh432.Of1971).\\ Fuente: NCh432.Of1971.}
 \end{center}
 \end{frame}
 
@@ -626,12 +641,12 @@ fue oficializada en 2024.}}
   \centering
   \includegraphics[width=0.9\linewidth,height=2.0cm,keepaspectratio]%
     {slide06_img4.png}\\[1mm]
-  {\scriptsize Figura 16: Presiones netas sobre la Nave~F\\(NCh432:2025). Fuente: Elaboración propia.}
+  {\scriptsize Figura 16: Presiones netas sobre la Nave~F\\(NCh432:2025).\\ Fuente: Elaboración propia.}
   \column{0.52\textwidth}
   \centering\vspace{-2mm}
   \includegraphics[width=\linewidth,height=4.8cm,keepaspectratio]%
     {nch25_fig4_1.png}\\[1mm]
-  {\scriptsize Figura 17: Coeficientes de presión externa $C_p$,\\SPRFV (Fig. 4, NCh432:2025). Fuente: NCh432:2025.}
+  {\scriptsize Figura 17: Coeficientes de presión externa $C_p$,\\SPRFV (Fig. 4, NCh432:2025).\\ Fuente: NCh432:2025.}
 \end{columns}
 \end{frame}
 
@@ -676,7 +691,7 @@ fue oficializada en 2024.}}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=5.0cm,keepaspectratio]%
     {fig04.png}\\[1mm]
-  {\scriptsize Figura 19: Espectro de diseño NCh2369.Of2003\\(sitio de Maipú). Fuente: Elaboración propia.}
+  {\scriptsize Figura 18: Espectro de diseño NCh2369.Of2003\\(sitio de Maipú).\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -720,7 +735,7 @@ fue oficializada en 2024.}}
   \centering\vspace{1mm}
   \includegraphics[width=\linewidth,height=5.0cm,keepaspectratio]%
     {fig05.png}\\[1mm]
-  {\scriptsize Figura 20: Espectro de diseño NCh2369:2025. Fuente: Elaboración propia.}
+  {\scriptsize Figura 19: Espectro de diseño NCh2369:2025.\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -791,7 +806,7 @@ fue oficializada en 2024.}}
   \centering\vspace{-2mm}
   \includegraphics[width=\linewidth,keepaspectratio]%
     {espectros_comp.png}\\[1mm]
-  {\scriptsize Figura 21: Espectros NCh2369 Of.2003 vs 2025 generados a partir de los datos SAP2000. Fuente: Elaboración propia.}
+  {\scriptsize Figura 20: Espectros NCh2369 Of.2003 vs 2025 generados a partir de los datos SAP2000.\\ Fuente: Elaboración propia.}
 \end{columns}
 \end{frame}
 
@@ -904,7 +919,7 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} (Anexo Fig
 \begin{center}
   \includegraphics[width=\linewidth,height=6.5cm,keepaspectratio]%
     {wind_Wx.png}\\[1.5mm]
-  {\scriptsize Figura 22: Cargas puntuales por marco --- viento $\perp$ cara corta ($W_x$); zonas Z1--Z4 según $h$. Fuente: Elaboración propia.}
+  {\scriptsize Figura 21: Cargas puntuales por marco --- viento $\perp$ cara corta ($W_x$); zonas Z1--Z4 según $h$.\\ Fuente: Elaboración propia.}
 \end{center}
 \end{frame}
 
@@ -917,7 +932,7 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} (Anexo Fig
 \begin{center}
   \includegraphics[width=\linewidth,height=6.5cm,keepaspectratio]%
     {wind_Wy.png}\\[1.5mm]
-  {\scriptsize Figura 23: Cargas distribuidas por marco --- viento $\perp$ cara larga ($W_y$); zonas NCh432:2025. Fuente: Elaboración propia.}
+  {\scriptsize Figura 22: Cargas distribuidas por marco --- viento $\perp$ cara larga ($W_y$); zonas NCh432:2025.\\ Fuente: Elaboración propia.}
 \end{center}
 \end{frame}
 
@@ -941,8 +956,8 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} (Anexo Fig
       \node[red,font=\scriptsize\bfseries,anchor=south east] at (0.31,0.685){Zona III-A};
     \end{scope}
   \end{tikzpicture}\\[3mm]
-  {\small Figura 18: $q_z$ por zona --- 1971 (uniforme, $65{,}92$\,kgf/m$^2$) vs 2025 (zonificada).\\
-  En Zona III-A: \alert{$51{,}00$\,kgf/m$^2$} ($-23\,\%$). Fuente: Elaboración propia.}
+  {\small Figura 23: $q_z$ por zona --- 1971 (uniforme, $65{,}92$\,kgf/m$^2$) vs 2025 (zonificada).\\
+  En Zona III-A: \alert{$51{,}00$\,kgf/m$^2$} ($-23\,\%$).\\ Fuente: Elaboración propia.}
 \end{center}
 \end{frame}
 
@@ -1346,6 +1361,7 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} (Anexo Fig
 \begin{frame}[plain]
   \vspace*{0.9cm}
   \titlepage
+  \addplainfoot
 \end{frame}
 
 \end{document}
