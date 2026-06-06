@@ -60,6 +60,8 @@
 % PIE DE PÁGINA (alineado con el borde izquierdo del área roja)
 %------------------------------------------------------------------
 \setbeamercolor{footline bar}{bg=white,fg=black}
+% Tamaño explícito del pie: idéntico en footline normal y en \addplainfoot
+\setbeamerfont{author in head/foot}{size={\fontsize{6pt}{7.2pt}\selectfont}}
 \setbeamertemplate{footline}{%
   \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex,%
       leftskip=2.6cm,rightskip=0.4cm]{footline bar}%
@@ -90,10 +92,10 @@
 % Pie de página para frames [plain] (portada, TOC, contraportada)
 \newcommand{\addplainfoot}{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=south,inner sep=0] at (current page.south){%
+    \node[anchor=south,inner sep=0] at ([yshift=-3.5pt]current page.south){%
       \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex,%
           leftskip=2.6cm,rightskip=0.4cm]{footline bar}%
-        {\color{black}\fontsize{7pt}{8.5pt}\selectfont%
+        {\color{black}\usebeamerfont{author in head/foot}%
         Presentación N°2 — Avance 70\,\text{\%}\hfill\insertshortauthor\hfill%
         \insertframenumber{} / \inserttotalframenumber}%
       \end{beamercolorbox}};
