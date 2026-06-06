@@ -103,7 +103,7 @@ Civil en Obras Civiles}}
    Comisión: Luis Leiva Aravena, Fernando Ibáñez Lara\\
    Departamento de Ingeniería en Obras Civiles}}
 
-\date{{\footnotesize 05 de Junio de 2026}}
+\date{{\footnotesize 10 de Junio de 2026}}
 
 %==================================================================
 \begin{document}
@@ -116,6 +116,7 @@ Civil en Obras Civiles}}
 % 1. PORTADA
 %------------------------------------------------------------------
 \begin{frame}[plain]
+  \vspace*{0.9cm}
   \titlepage
 \end{frame}
 
@@ -517,6 +518,7 @@ proyecto):}
     \midrule
     Peso Propio (D) & Dato obtenido por SAP2000 (+10\% por conexiones y pernos) \\
     Cubierta KR-8 (D) & 5,85 kg/m$^2$ \\
+    Costaneras Z (D) & \alert{(peso pendiente)} kg/m$^2$ --- no modeladas, aplicadas como carga \\
     Sobrecarga de techo (Lr) & 100 $\to$ \alert{53} kg/m$^2$ (reducida) \\
     Nieve (S) & \alert{25} kg/m$^2$ ($<$ SC) \\
     Viento (W) & Presión de viento (1971 / 2025) \\
@@ -537,8 +539,8 @@ proyecto):}
 \begin{frame}
 \ctitle{COMBINACIONES DE CARGA}
 \vspace{5mm}
-\begin{itemize}\large\setlength{\itemsep}{4mm}
-  \item Según \alert{NCh3171 Of.2010} y combinaciones sísmicas
+\begin{itemize}\small\setlength{\itemsep}{4mm}
+  \item Según \alert{NCh3171.Of2010} y combinaciones sísmicas
         según NCh2369 (2003/2025).
   \item Patrones: PP, CM\_CUB, CM\_MURO, L, S,
         Lr, Wx, Wy, Ex, Ey, Ez.
@@ -548,6 +550,10 @@ proyecto):}
         \alert{tridimensionalidad} (casos $E_{x\text{-}a}$, $E_{y\text{-}a}$ y
         componente vertical $E_z$).
 \end{itemize}
+\vspace{2mm}
+{\footnotesize\textit{Nota: se emplea la NCh3171.Of2010 por ser la versión
+vigente al momento del cálculo original de la estructura; su actualización
+fue oficializada en 2024.}}
 \end{frame}
 
 %==================================================================
@@ -560,9 +566,9 @@ proyecto):}
 \begin{frame}
 \ctitle{VIENTO --- NCh432.Of1971}
 \begin{columns}[T,totalwidth=\textwidth]
-  \column{0.48\textwidth}
-  \vspace{-1mm}
-  \begin{itemize}\scriptsize\setlength{\itemsep}{1mm}
+  \column{0.50\textwidth}
+  \vspace{2mm}
+  \begin{itemize}\footnotesize\setlength{\itemsep}{3mm}
     \item Norma oficial (DS N°994/1971); presión
           básica \alert{uniforme}, sin zonificación
           geográfica.
@@ -573,17 +579,25 @@ proyecto):}
           sotavento $-0{,}40$, cubierta $1{,}2\sin\theta - 0{,}4$.
     \item Sitio Nave~F ($h = 8{,}19$~m): $q = \alert{65{,}92}$~kgf/m$^2$.
   \end{itemize}
-  \vspace{2mm}
-  \centering
-  \includegraphics[width=0.85\linewidth,height=1.8cm,keepaspectratio]%
-    {fig02.png}\\[1mm]
-  {\tiny Figura 14: Presión $q$ vs altura (campo abierto /\\ciudad).}
   \column{0.49\textwidth}
-  \centering\vspace{-3mm}
-  \includegraphics[width=0.9\linewidth,height=4.8cm,keepaspectratio]%
-    {nch71_fig9.png}\\[1mm]
-  {\tiny Figura 15: Coeficientes de forma sobre cubiertas\\(Anexo Fig. 9, NCh432.Of1971).}
+  \centering\vspace{1mm}
+  \includegraphics[width=\linewidth,height=5.8cm,keepaspectratio]%
+    {fig02.png}\\[1mm]
+  {\scriptsize Figura 14: Presión $q$ vs altura (campo abierto / ciudad).}
 \end{columns}
+\end{frame}
+
+%------------------------------------------------------------------
+% 17b. VIENTO — NCh432.Of1971 (COEFICIENTES DE FORMA)
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{VIENTO --- NCh432.Of1971: COEFICIENTES DE FORMA}
+\vspace{1mm}
+\begin{center}
+  \includegraphics[width=0.80\linewidth,height=0.74\textheight,keepaspectratio]%
+    {nch71_fig9.png}\\[1mm]
+  {\scriptsize Figura 15: Coeficientes de forma sobre cubiertas (Anexo Fig. 9, NCh432.Of1971).}
+\end{center}
 \end{frame}
 
 %==================================================================
@@ -786,7 +800,129 @@ proyecto):}
 %==================================================================
 
 %------------------------------------------------------------------
-% 22. VIENTO — ZONIFICACIÓN Y PRESIONES
+% 21b. VIENTO — PRESIONES DE DISEÑO NCh432.Of1971
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{VIENTO --- PRESIONES DE DISEÑO NCh432.Of1971}
+\vspace{-1mm}
+\begin{center}{\footnotesize
+Presión básica $q = \alert{65{,}92}$~kgf/m$^2$ ($h = 8{,}19$~m, exposición ciudad).
+Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} (Anexo Fig.~9).}
+\end{center}
+\vspace{2mm}
+\begin{columns}[T,totalwidth=\textwidth]
+  \column{0.49\textwidth}
+  \centering
+  {\footnotesize\textbf{Viento $\perp$ cara corta (Wx)}}\\[1.5mm]
+  {\scriptsize
+  \begin{tabular}{@{}lrr@{}}
+    \toprule
+    Superficie & $C$ & $p$ (kgf/m$^2$) \\
+    \midrule
+    Muro barlovento  & $+0{,}80$ & $+52{,}74$ \\
+    Techo-barlovento & $-0{,}34$ & $-22{,}20$ \\
+    Techo-sotavento  & $-0{,}40$ & $-26{,}37$ \\
+    Muro sotavento   & $-0{,}40$ & $-26{,}37$ \\
+    \bottomrule
+  \end{tabular}}
+  \column{0.49\textwidth}
+  \centering
+  {\footnotesize\textbf{Viento $\perp$ cara larga (Wy)}}\\[1.5mm]
+  {\scriptsize
+  \begin{tabular}{@{}lrr@{}}
+    \toprule
+    Superficie & $C$ & $p$ (kgf/m$^2$) \\
+    \midrule
+    Muro barlovento  & $+0{,}80$ & $+52{,}74$ \\
+    Techo-barlovento & $-0{,}40$ & $-26{,}37$ \\
+    Sotavento        & $-0{,}40$ & $-26{,}37$ \\
+    \bottomrule
+  \end{tabular}}
+\end{columns}
+\vspace{3mm}
+{\scriptsize\centering Cubierta: $1{,}2\sin\theta - 0{,}4$ con $\theta \approx 3{,}02^\circ \Rightarrow -0{,}34$ (barlovento). Valores: $+$ presión, $-$ succión.\par}
+\end{frame}
+
+%------------------------------------------------------------------
+% 21c. VIENTO — PRESIONES DE DISEÑO NCh432:2025
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{VIENTO --- PRESIONES DE DISEÑO NCh432:2025}
+\vspace{-2mm}
+\begin{center}
+  {\scriptsize $p = q\,K_d\,G\,C_p - q_h\,K_d\,(GC_{pi})$ \quad (Ec.~4)}\\[1mm]
+  {\scriptsize $q_z = q_h = 51{,}00$;\quad $K_d = 0{,}85$;\quad $G = 0{,}85$;\quad $GC_{pi} = \pm0{,}18$.}
+\end{center}
+\vspace{1mm}
+\begin{columns}[T,totalwidth=\textwidth]
+  \column{0.47\textwidth}
+  \centering
+  {\footnotesize\textbf{$\perp$ Cara corta (Wx)}}\\[1.5mm]
+  {\scriptsize
+  \begin{tabular}{@{}lrrr@{}}
+    \toprule
+    Superficie & $C_p$ & $W_{x+}$ & $W_{x-}$ \\
+    \midrule
+    Muro barlovento & $0{,}80$  & $21{,}68$  & $37{,}28$ \\
+    Muro sotavento  & $-0{,}36$ & $-21{,}07$ & $-5{,}46$ \\
+    Muros laterales & $-0{,}70$ & $-33{,}60$ & $-17{,}99$ \\
+    Techo 0 a $h/2$ & $-0{,}90$ & $-40{,}97$ & $-25{,}36$ \\
+    Techo $h/2$ a $h$ & $-0{,}90$ & $-40{,}97$ & $-25{,}36$ \\
+    Techo $h$ a $2h$ & $-0{,}50$ & $-26{,}23$ & $-10{,}62$ \\
+    Techo $> 2h$    & $-0{,}30$ & $-18{,}86$ & $-3{,}25$ \\
+    \bottomrule
+  \end{tabular}}
+  \hfill
+  \column{0.47\textwidth}
+  \centering
+  {\footnotesize\textbf{$\perp$ Cara larga (Wy)}}\\[1.5mm]
+  {\scriptsize
+  \begin{tabular}{@{}lrrr@{}}
+    \toprule
+    Superficie & $C_p$ & $W_{y+}$ & $W_{y-}$ \\
+    \midrule
+    Muro barlovento & $0{,}80$  & $21{,}68$  & $37{,}28$ \\
+    Muro sotavento  & $-0{,}50$ & $-26{,}23$ & $-10{,}62$ \\
+    Muros laterales & $-0{,}70$ & $-33{,}60$ & $-17{,}99$ \\
+    Techo 0 a $h/2$ & $-0{,}90$ & $-40{,}97$ & $-25{,}36$ \\
+    Techo $h/2$ a $h$ & $-0{,}90$ & $-40{,}97$ & $-25{,}36$ \\
+    Techo $h$ a $2h$ & $-0{,}50$ & $-26{,}23$ & $-10{,}62$ \\
+    Techo $> 2h$    & $-0{,}30$ & $-18{,}86$ & $-3{,}25$ \\
+    \bottomrule
+  \end{tabular}}
+\end{columns}
+\vspace{2mm}
+{\scriptsize\centering $W_{x+},W_{y+}$: presión interna $+0{,}18$ (Caso A)\quad $W_{x-},W_{y-}$: presión interna $-0{,}18$ (Caso B). Valores en kgf/m$^2$ ($+$ presión, $-$ succión).\par}
+\end{frame}
+
+%------------------------------------------------------------------
+% 21d. VIENTO — CARGAS POR MARCO Wx (NCh432:2025)
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{VIENTO --- CARGAS POR MARCO (NCh432:2025)}
+\vspace{2mm}
+\begin{center}
+  \includegraphics[width=\linewidth,height=6.5cm,keepaspectratio]%
+    {wind_Wx.png}\\[1.5mm]
+  {\scriptsize Figura 22: Cargas puntuales por marco --- viento $\perp$ cara corta ($W_x$); zonas Z1--Z4 según $h$.}
+\end{center}
+\end{frame}
+
+%------------------------------------------------------------------
+% 21e. VIENTO — CARGAS POR MARCO Wy (NCh432:2025)
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{VIENTO --- CARGAS POR MARCO (NCh432:2025)}
+\vspace{2mm}
+\begin{center}
+  \includegraphics[width=\linewidth,height=6.5cm,keepaspectratio]%
+    {wind_Wy.png}\\[1.5mm]
+  {\scriptsize Figura 23: Cargas distribuidas por marco --- viento $\perp$ cara larga ($W_y$); zonas NCh432:2025.}
+\end{center}
+\end{frame}
+
+%------------------------------------------------------------------
+% 22a. VIENTO — ZONIFICACIÓN (gráfico)
 %------------------------------------------------------------------
 \begin{frame}
 \ctitle{RESULTADOS Y COMPARATIVAS}
@@ -794,41 +930,56 @@ proyecto):}
 \begin{center}
   \textcolor{azulUSACH}{\textbf{Viento - Zonificación y presiones}}
 \end{center}
-\vspace{1mm}
-\begin{columns}[T,totalwidth=\textwidth]
-  \column{0.48\textwidth}
-  \centering\vspace{1mm}
-  \includegraphics[width=\linewidth,keepaspectratio]%
-    {fig_qz_zonas.png}\\[2mm]
-  {\scriptsize Figura 18: $q_z$ por zona --- 1971 (uniforme, $65{,}92$) vs 2025 (zonificada). En Zona III-A: \alert{$51{,}00$}\,kgf/m$^2$ ($R = 0{,}77$, $-23\,\text{\%}$).}
-  \column{0.49\textwidth}
-  \vspace{1mm}
-  {\footnotesize\textbf{Presión neta por superficie} (kgf/m$^2$):}\\[1mm]
-  {\scriptsize
-  \begin{tabular}{@{}lrrr@{}}
-    \toprule
-    Superficie & 1971 & 2025 & $\Delta$ \\
-    \midrule
-    Muro barlovento & $+52{,}74$ & $+37{,}28$ & $\downarrow 29\,\text{\%}$ \\
-    Muro sotavento  & $-26{,}37$ & $-21{,}07$ & $\downarrow 20\,\text{\%}$ \\
-    Muros laterales & ---       & $-33{,}60$ & nuevo \\
-    \bottomrule
-  \end{tabular}}\\[2mm]
-  {\footnotesize\textbf{Succión en cubierta por zona} ($R = 2025/1971$):}\\[1mm]
-  {\scriptsize
-  \begin{tabular}{@{}lrrr@{}}
-    \toprule
-    Zona & 1971 & 2025 & $R$ \\
-    \midrule
-    0 a $h/2$  & $-26{,}37$ & $-40{,}97$ & \textbf{1,55} \\
-    $h/2$ a $h$ & $-26{,}37$ & $-40{,}97$ & \textbf{1,55} \\
-    $h$ a $2h$  & $-26{,}37$ & $-26{,}23$ & 0,99 \\
-    $> 2h$      & $-26{,}37$ & $-18{,}86$ & 0,72 \\
-    \bottomrule
-  \end{tabular}}\\[1mm]
-  {\scriptsize La 2025 \alert{intensifica} la succión de borde y \alert{alivia} la
-  zona central.}
-\end{columns}
+\vspace{2mm}
+\begin{center}
+  \begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (qzimg) at (0,0)
+      {\includegraphics[width=0.85\linewidth,keepaspectratio]{fig_qz_zonas.png}};
+    \begin{scope}[x={(qzimg.south east)},y={(qzimg.north west)}]
+      \draw[red,very thick] (0.455,0.405) ellipse [x radius=0.022,y radius=0.05];
+      \draw[red,very thick,->] (0.30,0.68) to[bend left=12] (0.44,0.45);
+      \node[red,font=\scriptsize\bfseries,anchor=south east] at (0.31,0.685){Zona III-A};
+    \end{scope}
+  \end{tikzpicture}\\[3mm]
+  {\small Figura 18: $q_z$ por zona --- 1971 (uniforme, $65{,}92$\,kgf/m$^2$) vs 2025 (zonificada).\\
+  En Zona III-A: \alert{$51{,}00$\,kgf/m$^2$} ($-23\,\%$).}
+\end{center}
+\end{frame}
+
+%------------------------------------------------------------------
+% 22b. VIENTO — PRESIONES COMPARATIVAS (tablas)
+%------------------------------------------------------------------
+\begin{frame}
+\ctitle{RESULTADOS Y COMPARATIVAS}
+\vspace{-4mm}
+\begin{center}
+  \textcolor{azulUSACH}{\textbf{Viento - Zonificación y presiones}}
+\end{center}
+\vspace{3mm}
+{\footnotesize\textbf{Presión neta por superficie} (kgf/m$^2$):}\\[2mm]
+{\small
+\begin{tabular}{@{}lrrr@{}}
+  \toprule
+  Superficie & 1971 & 2025 & $\Delta$ \\
+  \midrule
+  Muro barlovento & $+52{,}74$ & $+37{,}28$ & $\downarrow 29\,\text{\%}$ \\
+  Muro sotavento  & $-26{,}37$ & $-21{,}07$ & $\downarrow 20\,\text{\%}$ \\
+  Muros laterales & ---        & $-33{,}60$ & nuevo \\
+  \bottomrule
+\end{tabular}}\\[4mm]
+{\footnotesize\textbf{Succión en cubierta por zona} ($R = 2025/1971$):}\\[2mm]
+{\small
+\begin{tabular}{@{}lrrr@{}}
+  \toprule
+  Zona & 1971 & 2025 & $\Delta\,\text{\%}$ \\
+  \midrule
+  0 a $h/2$    & $-26{,}37$ & $-40{,}97$ & \textcolor{red}{\textbf{$+55\,\text{\%}$}} \\
+  $h/2$ a $h$  & $-26{,}37$ & $-40{,}97$ & \textcolor{red}{\textbf{$+55\,\text{\%}$}} \\
+  $h$ a $2h$   & $-26{,}37$ & $-26{,}23$ & $-1\,\text{\%}$ \\
+  $> 2h$       & $-26{,}37$ & $-18{,}86$ & \textcolor{verdeBox}{$-28\,\text{\%}$} \\
+  \bottomrule
+\end{tabular}}\\[3mm]
+{\small La 2025 \alert{intensifica} la succión de borde y \alert{alivia} la zona central.}
 \end{frame}
 
 %==================================================================
@@ -855,7 +1006,8 @@ proyecto):}
     Parámetro & Of.1971 & 2025 \\
     \midrule
     \textbf{Presión básica $q$} & \textbf{65,92 kgf/m$^2$} & \textbf{51,00 kgf/m$^2$} \alert{($\downarrow 23\,\text{\%}$)} \\
-    Exposición / Zona & Ciudad & Zona III-A ($V=34$\,m/s) \\
+    Exposición & Ciudad & Ciudad (Cat. B) \\
+    Zona & --- & Zona III-A ($V=34$\,m/s) \\
     Categoría & --- & II ($I=1{,}00$) \\
     Tipo de techo & 2 Aguas & 2 Aguas (sim.) \\
     Cerramiento & --- & Cerrado ($GC_{pi} = \pm 0{,}18$) \\
@@ -969,12 +1121,12 @@ proyecto):}
     \cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
     Caso & $F_x$ & $F_y$ & $F_z$ & $F_x$ & $F_y$ & $F_z$ & $\Delta F_x$ & $\Delta F_y$ & $\Delta F_z$ \\
     \midrule
-    $E_x$  & 11,52 & 0,01  & 0,10  & 16,75 & 0,02  & 0,08  & \textcolor{red}{$+45\,\text{\%}$} & --- & --- \\
-    $E_y$  & 0,01  & 15,06 & 0,04  & 0,02  & 22,30 & 0,06  & --- & \textcolor{red}{$+48\,\text{\%}$} & --- \\
-    $E_z$  & 0,10  & 0,06  & 10,22 & 0,12  & 0,09  & 11,50 & --- & --- & \textcolor{red}{$+13\,\text{\%}$} \\
+    $E_x$  & 11,52 & ---   & ---   & 16,75 & ---   & ---   & \textcolor{red}{$+45\,\text{\%}$} & --- & --- \\
+    $E_y$  & ---   & 15,06 & ---   & ---   & 22,30 & ---   & --- & \textcolor{red}{$+48\,\text{\%}$} & --- \\
+    $E_z$  & ---   & ---   & 10,22 & ---   & ---   & 11,50 & --- & --- & \textcolor{red}{$+13\,\text{\%}$} \\
     \midrule
-    $E_{x-a}$ & ---   & ---   & ---   & \textbf{46,64} & 0,06  & 0,23  & \multicolumn{3}{c}{\multirow{2}{*}{\color{red} \textbf{Casos Amplificados}}} \\
-    $E_{y-a}$ & ---   & ---   & ---   & 0,06  & \textbf{62,43} & 0,18  & \multicolumn{3}{c}{} \\
+    $E_{x-a}$ & ---   & ---   & ---   & \textbf{46,64} & ---   & ---   & \multicolumn{3}{c}{\multirow{2}{*}{\color{red} \textbf{Casos Amplificados}}} \\
+    $E_{y-a}$ & ---   & ---   & ---   & ---   & \textbf{62,43} & ---   & \multicolumn{3}{c}{} \\
     \bottomrule
   \end{tabular}
   }\\[4mm]
@@ -1061,7 +1213,7 @@ proyecto):}
   \resizebox{\linewidth}{!}{
   \begin{tabular}{@{}llrrrrl@{}}
     \toprule
-    Grupo & Perfil & F.U. 1971 & F.U. 2025 & $\Delta\,\text{\%}$ & Estado '25 & Combo controlante (2025) \\
+    Grupo & Perfil & F.U. Instalado & F.U. Actualizado & $\Delta\,\text{\%}$ & Estado '25 & Combo controlante (2025) \\
     \midrule
     Columnas 1     & TB $550\times200\times4\times3$  & 1,450 & \textbf{1,474} & \textcolor{red}{$+2\,\text{\%}$} & \textcolor{red}{\textbf{FALLA}} & \texttt{\tiny D+0.75((Ex-a+0.3Ey-a+0.3Ez)+Lr+L)} \\
     Columnas 2     & {[}\,{]} $150\times150\times3$    & 2,162 & \textbf{1,533} & \textcolor{verdeBox}{$-29\,\text{\%}$} & \textcolor{red}{\textbf{FALLA}} & \texttt{\tiny D + Wx-} \\
@@ -1147,8 +1299,8 @@ proyecto):}
         Acción del viento sobre las construcciones.} Santiago: INN.
   \item ——\,(2003). \textit{NCh2369 Of.2003: Diseño sísmico de estructuras
         e instalaciones industriales.} Santiago: INN.
-  \item ——\,(2017). \textit{NCh3171:2017: Combinaciones de carga.}
-        Santiago: INN.
+  \item ——\,(2010). \textit{NCh3171.Of2010: Diseño estructural —
+        Disposiciones básicas y combinaciones de carga.} Santiago: INN.
   \item ——\,(2019). \textit{NCh427/2:2019: Diseño y construcción en acero
         — Parte 2: Estructuras con elementos conformados en frío.}
         Santiago: INN.
@@ -1190,6 +1342,7 @@ proyecto):}
 % 35. CONTRAPORTADA
 %==================================================================
 \begin{frame}[plain]
+  \vspace*{0.9cm}
   \titlepage
 \end{frame}
 
