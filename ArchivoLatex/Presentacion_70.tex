@@ -92,7 +92,10 @@
 % Pie de página para frames [plain] (portada, TOC, contraportada)
 \newcommand{\addplainfoot}{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=south,inner sep=0] at ([yshift=-3.5pt]current page.south){%
+    % font pequeño antes de la caja: ex (ht/dp) se calcula al tamaño del pie;
+    % xshift=2.6cm compensa el overhang del leftskip para alinear con x=0
+    \node[anchor=south west,inner sep=0] at ([xshift=2.6cm]current page.south west){%
+      \usebeamerfont{author in head/foot}%
       \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex,%
           leftskip=2.6cm,rightskip=0.4cm]{footline bar}%
         {\color{black}\usebeamerfont{author in head/foot}%
