@@ -1,0 +1,25 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Resumen Presentación N°1}{3}{0}{1}
+\beamer@sectionintoc {2}{Metodología}{6}{0}{2}
+\beamer@sectionintoc {3}{Recopilación de antecedentes}{8}{0}{3}
+\beamer@sectionintoc {4}{Descripción de la Nave F}{9}{0}{4}
+\beamer@sectionintoc {5}{Levantamiento en terreno}{11}{0}{5}
+\beamer@sectionintoc {6}{Discrepancia planos vs construido}{12}{0}{6}
+\beamer@sectionintoc {7}{Sistema estructural y materialidad}{13}{0}{7}
+\beamer@sectionintoc {8}{Modelo SAP2000}{14}{0}{8}
+\beamer@sectionintoc {9}{Cargas de diseño}{15}{0}{9}
+\beamer@sectionintoc {10}{Combinaciones de carga}{16}{0}{10}
+\beamer@sectionintoc {11}{Viento: NCh432.Of1971}{17}{0}{11}
+\beamer@sectionintoc {12}{Viento: NCh432:2025}{19}{0}{12}
+\beamer@sectionintoc {13}{Sismo: NCh2369.Of2003}{20}{0}{13}
+\beamer@sectionintoc {14}{Sismo: NCh2369:2025}{21}{0}{14}
+\beamer@sectionintoc {15}{Participación de masa modal}{22}{0}{15}
+\beamer@sectionintoc {16}{Resultados y comparativas}{23}{0}{16}
+\beamer@sectionintoc {17}{Viento: zonificación y presiones}{24}{0}{17}
+\beamer@sectionintoc {18}{Viento: solicitaciones globales}{30}{0}{18}
+\beamer@sectionintoc {19}{Resultados: Reacciones en la Base}{32}{0}{19}
+\beamer@sectionintoc {20}{Resultados: Desplazamientos}{33}{0}{20}
+\beamer@sectionintoc {21}{Resultados: Factores de Utilización}{34}{0}{21}
+\beamer@sectionintoc {22}{Análisis comparativo}{35}{0}{22}
+\beamer@sectionintoc {23}{Conclusiones}{36}{0}{23}
