@@ -1,0 +1,205 @@
+<mxfile host="draw.nivel0.cl" agent="Mozilla/5.0">
+  <diagram name="Flujo Metodológico" id="diagram-1">
+    <mxGraphModel dx="934" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="2600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;fontColor=#004080;" value="DIAGRAMA DE FLUJO — METODOLOGÍA DE INVESTIGACIÓN" vertex="1">
+          <mxGeometry height="40" width="700" x="250" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=20;fillColor=#004080;strokeColor=#002060;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" value="INICIO" vertex="1">
+          <mxGeometry height="40" width="100" x="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fase1-box" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;dashPattern=8 4;strokeColor=#004080;fillColor=#E8F0FE;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#004080;" value="" vertex="1">
+          <mxGeometry height="500" width="1120" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fase1-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#004080;" value="FASE 1 — LEVANTAMIENTO Y ANTECEDENTES" vertex="1">
+          <mxGeometry height="25" width="320" x="440" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="recopilacion" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Recopilación de antecedentes&#xa;(Planos estructurales,&#xa;Memoria de cálculo PLG 2023)" vertex="1">
+          <mxGeometry height="60" width="200" x="80" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="descripcion" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Descripción Nave F&#xa;(Metalpar, Maipú)&#xa;50×83.5m, 10 marcos" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="levantamiento" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Levantamiento en terreno&#xa;(11-Ene-2026)&#xa;Inspección visual, medición&#xa;láser, ultrasónico" vertex="1">
+          <mxGeometry height="60" width="200" x="640" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="discrepancias" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=10;align=center;verticalAlign=middle;" value="Discrepancias planos vs construido&#xa;• Pilares: P2 en vez de J2&#xa;• Vigas: PT1/PT2 mixto" vertex="1">
+          <mxGeometry height="60" width="210" x="920" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-rec-desc" edge="1" parent="1" source="recopilacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="descripcion" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-desc-lev" edge="1" parent="1" source="descripcion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="levantamiento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-lev-disc" edge="1" parent="1" source="levantamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="discrepancias" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sist-estructural" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Sistema estructural y materialidad&#xa;• Acero A270 ES (Fy=250, Fu=400 MPa)&#xa;• Perfiles TB, TBC, P, PT, D1/RT&#xa;• AISC 360-10 / NCh427/1" vertex="1">
+          <mxGeometry height="70" width="250" x="80" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="modelo-sap" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Modelo SAP2000 v24.2.0&#xa;Elementos frame (barras)&#xa;Dos modelos: Instalado vs Actualizado&#xa;Análisis modal espectral (ξ=0.03)" vertex="1">
+          <mxGeometry height="70" width="220" x="440" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cargas-diseno" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=10;align=center;verticalAlign=middle;" value="Cargas de diseño&#xa;• D (PP + Cubierta + Costaneras)&#xa;• Lr (100→53 kg/m²)&#xa;• S (25 kg/m²)&#xa;• W (Viento)• E (Sismo)" vertex="1">
+          <mxGeometry height="70" width="200" x="780" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-rec-sist" edge="1" parent="1" source="recopilacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;enterX=0.25;enterY=0;enterDx=0;enterDy=0;" target="sist-estructural" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-sist-modelo" edge="1" parent="1" source="sist-estructural" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="modelo-sap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-disc-cargas" edge="1" parent="1" source="discrepancias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="cargas-diseno" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="combinaciones" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=10;align=center;verticalAlign=middle;" value="Combinaciones de carga&#xa;NCh3171.Of2010 + NCh2369&#xa;Instalado: 46 combinaciones&#xa;Actualizado: 214 combinaciones&#xa;(+365% por sismo amplificado)" vertex="1">
+          <mxGeometry height="70" width="300" x="380" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-modelo-comb" edge="1" parent="1" source="modelo-sap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;enterX=0.5;enterY=0;enterDx=0;enterDy=0;" target="combinaciones" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-cargas-comb" edge="1" parent="1" source="cargas-diseno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=0.2;exitY=1;exitDx=0;exitDy=0;enterX=0.7;enterY=0;enterDx=0;enterDy=0;" target="combinaciones" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fase2-box" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;dashPattern=8 4;strokeColor=#804000;fillColor=#FFF2E6;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#804000;" value="" vertex="1">
+          <mxGeometry height="310" width="1120" x="40" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="fase2-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#804000;" value="FASE 2 — ANÁLISIS NORMATIVO PARALELO (Instalado vs Actualizado)" vertex="1">
+          <mxGeometry height="25" width="440" x="380" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="instalado-label" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#C55A11;strokeColor=#804000;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="ESCENARIO INSTALADO" vertex="1">
+          <mxGeometry height="30" width="200" x="80" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="viento-1971" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=9;align=center;verticalAlign=middle;" value="VIENTO — NCh432.Of1971&#xa;Presión básica uniforme&#xa;q = u²/16 = 65.92 kgf/m²&#xa;Coef. forma C (Fig.9)&#xa;Wx: +52.7 / -26.4 kgf/m²&#xa;Wy: +52.7 / -26.4 kgf/m²" vertex="1">
+          <mxGeometry height="90" width="200" x="80" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="sismo-2003" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=9;align=center;verticalAlign=middle;" value="SISMO — NCh2369.Of2003&#xa;Zona 2 (A₀=0.30g)&#xa;Suelo Tipo III&#xa;R=4, I=1.00, ξ=0.03&#xa;Sa(máx) ≈ 0.27g&#xa;Cortes: Ex=11.52, Ey=15.06 tf" vertex="1">
+          <mxGeometry height="90" width="200" x="80" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="actualizado-label" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#2E75B6;strokeColor=#004080;fontColor=#FFFFFF;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="ESCENARIO ACTUALIZADO (2025)" vertex="1">
+          <mxGeometry height="30" width="200" x="720" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="viento-2025" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=9;align=center;verticalAlign=middle;" value="VIENTO — NCh432:2025&#xa;Procedimiento direccional (ASCE 7-22)&#xa;Zona III-A, V=34 m/s, Exp. B&#xa;qh = 51.00 kgf/m² (-23%)&#xa;GCpi = ±0.18 (edif. cerrado)&#xa;Cp por zonas (h/2, h, 2h)" vertex="1">
+          <mxGeometry height="90" width="200" x="720" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="sismo-2025" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=9;align=center;verticalAlign=middle;" value="SISMO — NCh2369:2025&#xa;Zona 2 (A₀=0.30g)&#xa;Suelo C (Vₛ₃₀)&#xa;R=4, Rv=2, Tx*=0.22, Ty*=0.34&#xa;+ Espectro amplificado Ex-a, Ey-a&#xa;Cortes: Ex=16.75, Ey=22.30 tf&#xa;Amplif: Ex-a=46.64, Ey-a=62.43 tf" vertex="1">
+          <mxGeometry height="90" width="200" x="720" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-viento" parent="1" style="ellipse;fillColor=#FFFFCC;strokeColor=#BF8F00;fontSize=10;align=center;verticalAlign=middle;" value="⬇ -23% presión" vertex="1">
+          <mxGeometry height="40" width="80" x="470" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-v1971-comp" edge="1" parent="1" source="viento-1971" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C55A11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="comp-viento" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-comp-v2025" edge="1" parent="1" source="comp-viento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="viento-2025" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-sismo" parent="1" style="ellipse;fillColor=#FFFFCC;strokeColor=#BF8F00;fontSize=10;align=center;verticalAlign=middle;" value="⬆ +45-48% cortes&#xa;+ Amplif. ×2.8" vertex="1">
+          <mxGeometry height="40" width="80" x="370" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-s2003-comp" edge="1" parent="1" source="sismo-2003" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C55A11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="comp-sismo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-comp-s2025" edge="1" parent="1" source="comp-sismo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2E75B6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="sismo-2025" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aplicacion-comb" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=10;align=center;verticalAlign=middle;" value="APLICACIÓN DE COMBINACIONES&#xa;AL MODELO SAP2000&#xa;• Patrones y Casos de Carga (SAP2000)&#xa;• 11→15 patrones; 13→17 casos&#xa;• Cómo se aplican al modelo" vertex="1">
+          <mxGeometry height="70" width="300" x="380" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-comb-apl" edge="1" parent="1" source="combinaciones" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#548235;exitX=0.5;exitY=1;exitDx=0;exitDy=0;enterX=0.5;enterY=0;enterDx=0;enterDy=0;" target="aplicacion-comb" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-fase1-fase2" edge="1" parent="1" source="aplicacion-comb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#804000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;enterX=0.5;enterY=0;enterDx=0;enterDy=0;dashed=1;" target="fase2-box" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fase3-box" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;dashPattern=8 4;strokeColor=#006600;fillColor=#E8F5E8;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#006600;" value="" vertex="1">
+          <mxGeometry height="460" width="1120" x="40" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="fase3-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#006600;" value="FASE 3 — RESULTADOS Y COMPARATIVAS" vertex="1">
+          <mxGeometry height="25" width="360" x="420" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="part-masa" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=10;align=center;verticalAlign=middle;" value="Participación de masa modal&#xa;UX: 99.7% | UY: 100% | UZ: 93.1%&#xa;Periodos cortos → Estructura rígida" vertex="1">
+          <mxGeometry height="60" width="240" x="80" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="reacciones-base" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=9;align=center;verticalAlign=middle;" value="REACCIONES EN LA BASE&#xa;Corte basal sismo Y:&#xa;Inst: 15.06 → Act: 22.30 tf (+48%)&#xa;Amplif: 62.43 tf&#xa;Corte basal viento Y:&#xa;Inst: 55.07 → Act: 18.23 tf (-67%)" vertex="1">
+          <mxGeometry height="90" width="240" x="80" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="desplazamientos" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=9;align=center;verticalAlign=middle;" value="DESPLAZAMIENTOS (mm)&#xa;Sismo Y: Inst 19.61 → Act 28.99&#xa;Amplif: 81.17 mm (+314%)&#xa;Viento Y: Inst 11.14 → Act ↓&#xa;→ Sismo RIGE deformación" vertex="1">
+          <mxGeometry height="90" width="240" x="380" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="fu-maximos" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FFF2CC;strokeColor=#BF8F00;fontSize=9;align=center;verticalAlign=middle;" value="FACTORES DE UTILIZACIÓN&#xa;Diag. verticales: 0.78→2.265 (+191%)&#xa;Columnas P1: 1.45→1.474 (+2%)&#xa;Columnas P2: 2.16→1.533 (-29%)&#xa;Diag. horizontales: 0.83→1.464 (+76%)&#xa;Múltiples FALLA bajo NCh2369:2025" vertex="1">
+          <mxGeometry height="90" width="260" x="700" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="carga-dominante" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#F8D7DA;strokeColor=#C00000;fontStyle=1;fontSize=10;align=center;verticalAlign=middle;" value="CAMBIO DE CARGA DOMINANTE&#xa;Instalado: VIENTO&#xa;Actualizado: SISMO&#xa;🔥 Hallazgo principal" vertex="1">
+          <mxGeometry height="60" width="260" x="700" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-fase2-reacciones" edge="1" parent="1" source="combinaciones" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#548235;exitX=0.3;exitY=1;exitDx=0;exitDy=0;enterX=0.5;enterY=0;enterDx=0;enterDy=0;" target="part-masa" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fase4-box" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;dashPattern=8 4;strokeColor=#7030A0;fillColor=#F0E6F6;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#7030A0;" value="" vertex="1">
+          <mxGeometry height="370" width="1120" x="40" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="fase4-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontStyle=1;fontColor=#7030A0;" value="FASE 4 — ANÁLISIS COMPARATIVO Y CONCLUSIONES" vertex="1">
+          <mxGeometry height="25" width="380" x="410" y="1505" as="geometry" />
+        </mxCell>
+        <mxCell id="analisis-comp" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E4DFEC;strokeColor=#7030A0;fontSize=9;align=center;verticalAlign=middle;" value="ANÁLISIS COMPARATIVO — CORTES BASALES Y CARGA DOMINANTE&#xa;• Sismo 2025: +48% corte (estricto)&#xa;  +180% (amplificado)&#xa;• Viento 2025: -60% a -67% corte&#xa;• Desplazam. sismo: +314%&#xa;• F.U. diagonales: +191%&#xa;• Cambio: Viento → Sismo" vertex="1">
+          <mxGeometry height="100" width="250" x="80" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="conclusiones" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E4DFEC;strokeColor=#7030A0;fontSize=9;align=center;verticalAlign=middle;" value="CONCLUSIONES&#xa;1. Levantamiento exitoso con modelo IFC&#xa;2. Viento 2025 ↓ (zonificación + Kd)&#xa;3. Sismo 2025 ↑ (espectro amplificado)&#xa;4. Cambio de carga dominante: Viento→Sismo&#xa;5. F.U. críticos → Adecuación estructural necesaria" vertex="1">
+          <mxGeometry height="100" width="300" x="420" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="adecuacion" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=9;align=center;verticalAlign=middle;" value="ADECUACIÓN CONCEPTUAL&#xa;Refuerzos en:&#xa;• Diagonales verticales (F.U.=2.265)&#xa;• Diagonales horizontales (F.U.=1.464)&#xa;• Columnas principales (F.U.=1.474)&#xa;• Vigas principales (F.U.=1.353)&#xa;• Columnas secundarias (F.U.=1.533)" vertex="1">
+          <mxGeometry height="100" width="260" x="810" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-comp-concl" edge="1" parent="1" source="analisis-comp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7030A0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="conclusiones" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-concl-adec" edge="1" parent="1" source="conclusiones" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7030A0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;enterX=0;enterY=0.5;enterDx=0;enterDy=0;" target="adecuacion" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-fase3-fase4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7030A0;exitX=0.15;exitY=1;exitDx=0;exitDy=0;enterX=0.2;enterY=0;enterDx=0;enterDy=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1470" as="sourcePoint" />
+            <mxPoint x="200" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="end" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=20;fillColor=#004080;strokeColor=#002060;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" value="FIN" vertex="1">
+          <mxGeometry height="40" width="100" x="550" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-fase4-end" edge="1" parent="1" source="adecuacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7030A0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;enterX=0.5;enterY=0;enterDx=0;enterDy=0;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-box" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="120" width="1120" x="40" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1;fontColor=#333333;" value="LEYENDA" vertex="1">
+          <mxGeometry height="25" width="120" x="540" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fase1" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#D4E6F1;strokeColor=#2E75B6;fontSize=9;align=center;verticalAlign=middle;" value="Fase 1: Antecedentes" vertex="1">
+          <mxGeometry height="30" width="140" x="80" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fase2" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#FCE4D6;strokeColor=#C55A11;fontSize=9;align=center;verticalAlign=middle;" value="Fase 2: Análisis normativo" vertex="1">
+          <mxGeometry height="30" width="150" x="280" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fase3" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#548235;fontSize=9;align=center;verticalAlign=middle;" value="Fase 3: Resultados" vertex="1">
+          <mxGeometry height="30" width="130" x="490" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fase4" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#E4DFEC;strokeColor=#7030A0;fontSize=9;align=center;verticalAlign=middle;" value="Fase 4: Conclusiones" vertex="1">
+          <mxGeometry height="30" width="130" x="680" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-alert" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#F8D7DA;strokeColor=#C00000;fontSize=9;align=center;verticalAlign=middle;" value="Hallazgos críticos" vertex="1">
+          <mxGeometry height="30" width="130" x="870" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-edge" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=9;fontColor=#333333;" value="Flujo secuencial" vertex="1">
+          <mxGeometry height="20" width="200" x="80" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-dashed" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=9;fontColor=#333333;dashed=1;" value="Conexión entre fases" vertex="1">
+          <mxGeometry height="20" width="200" x="280" y="2020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

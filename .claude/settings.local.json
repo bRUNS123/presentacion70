@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($old = \"c:\\\\PruebasCLAUDE\\\\PRESENTACIÓN 2 - TESIS\\\\presentaci-n-latex\"; Remove-Item -LiteralPath $old -Recurse -Force; if \\(-not \\(Test-Path $old\\)\\) { \"Carpeta vieja eliminada OK\" }; \"----- Contenido actual de PRESENTACION 2 - TESIS -----\"; Get-ChildItem \"c:\\\\PruebasCLAUDE\\\\PRESENTACIÓN 2 - TESIS\" | Select-Object Name, Mode | Format-Table -AutoSize)",
+      "PowerShell(git -C $repo push --dry-run origin main 2>&1)",
+      "PowerShell($repo = \"c:\\\\PruebasCLAUDE\\\\PRESENTACI�N 2 - TESIS\\\\presentacion70\")",
+      "PowerShell(\"----- TEX files -----\")",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(python -c \"import pypdf; print\\('pypdf', pypdf.__version__\\)\" 2>&1)",
+      "PowerShell(python -c \"import fitz; print\\('PyMuPDF', fitz.__doc__\\)\" 2>&1)",
+      "PowerShell(\"---- pypdf? ----\")",
+      "PowerShell(\"---- fitz/PyMuPDF? ----\")",
+      "Bash(python -c ' *)",
+      "PowerShell(\\(Get-Command pdflatex -ErrorAction SilentlyContinue\\).Source; \\(Get-Command latexmk -ErrorAction SilentlyContinue\\).Source; \\(Get-Command lualatex -ErrorAction SilentlyContinue\\).Source)",
+      "Bash(pdflatex -interaction=nonstopmode -halt-on-error Presentacion_70.tex)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(cd \"/c/PruebasCLAUDE/PRESENTACIÓN 2 - TESIS/presentacion70/ArchivoLatex\" && rm -f build.log && echo \"ok\")",
+      "Bash(cp \"Wx+.png\" \"presentacion70/Figuras/wind_Wx.png\")",
+      "Bash(cp \"Wy+.png\" \"presentacion70/Figuras/wind_Wy.png\")",
+      "Bash(start \"\" \"c:\\\\PruebasCLAUDE\\\\PRESENTACIÓN 2 - TESIS\\\\presentacion70\\\\ArchivoLatex\\\\Presentacion_70.pdf\")",
+      "Bash(pdflatex -interaction=nonstopmode Presentacion_70.tex)"
+    ],
+    "additionalDirectories": [
+      "c:\\c\\PruebasCLAUDE\\PRESENTACIÓN 2 - TESIS\\presentacion70\\ArchivoLatex"
+    ]
+  }
+}
