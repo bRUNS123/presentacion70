@@ -18,136 +18,173 @@
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\slideentry {2}{0}{2}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {6}{7}}
-\headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\sectionentry {3}{Recopilación de antecedentes}{8}{Recopilación de antecedentes}{0}}
-\headcommand {\slideentry {3}{0}{1}{8/8}{}{0}}
+\headcommand {\slideentry {2}{0}{3}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\sectionentry {4}{Descripción de la Nave F}{9}{Descripción de la Nave F}{0}}
-\headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
+\headcommand {\slideentry {2}{0}{4}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{0}{2}{10/10}{}{0}}
+\headcommand {\slideentry {2}{0}{5}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@sectionpages {9}{10}}
-\headcommand {\beamer@subsectionpages {9}{10}}
-\headcommand {\sectionentry {5}{Levantamiento en terreno}{11}{Levantamiento en terreno}{0}}
-\headcommand {\slideentry {5}{0}{1}{11/11}{}{0}}
+\headcommand {\slideentry {2}{0}{6}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {11}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\sectionentry {6}{Discrepancia planos vs construido}{12}{Discrepancia planos vs construido}{0}}
-\headcommand {\slideentry {6}{0}{1}{12/12}{}{0}}
+\headcommand {\slideentry {2}{0}{7}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@sectionpages {12}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\sectionentry {7}{Sistema estructural y materialidad}{13}{Sistema estructural y materialidad}{0}}
-\headcommand {\slideentry {7}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@sectionpages {6}{12}}
+\headcommand {\beamer@subsectionpages {6}{12}}
+\headcommand {\sectionentry {3}{Recopilación de antecedentes}{13}{Recopilación de antecedentes}{0}}
+\headcommand {\slideentry {3}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@sectionpages {13}{13}}
-\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\sectionentry {8}{Modelo SAP2000}{14}{Modelo SAP2000}{0}}
-\headcommand {\slideentry {8}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@sectionpages {14}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\sectionentry {9}{Participación de masa modal}{15}{Participación de masa modal}{0}}
-\headcommand {\slideentry {9}{0}{1}{15/15}{}{0}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\sectionentry {4}{Descripción de la Nave F}{15}{Descripción de la Nave F}{0}}
+\headcommand {\slideentry {4}{0}{1}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@sectionpages {15}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\sectionentry {10}{Cargas de diseño}{16}{Cargas de diseño}{0}}
-\headcommand {\slideentry {10}{0}{1}{16/16}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@sectionpages {16}{16}}
-\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\sectionentry {11}{Combinaciones de carga}{17}{Combinaciones de carga}{0}}
-\headcommand {\slideentry {11}{0}{1}{17/17}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {11}{0}{2}{18/18}{}{0}}
+\headcommand {\beamer@sectionpages {15}{17}}
+\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\sectionentry {5}{Levantamiento en terreno}{18}{Levantamiento en terreno}{0}}
+\headcommand {\slideentry {5}{0}{1}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@sectionpages {17}{18}}
-\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\sectionentry {12}{Viento: NCh432.Of1971}{19}{Viento: NCh432.Of1971}{0}}
-\headcommand {\slideentry {12}{0}{1}{19/19}{}{0}}
+\headcommand {\beamer@sectionpages {18}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\sectionentry {6}{Discrepancia planos vs construido}{19}{Discrepancia planos vs construido}{0}}
+\headcommand {\slideentry {6}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@sectionpages {19}{19}}
-\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\sectionentry {13}{Viento: NCh432:2025}{20}{Viento: NCh432:2025}{0}}
-\headcommand {\slideentry {13}{0}{1}{20/20}{}{0}}
+\headcommand {\slideentry {6}{0}{2}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@sectionpages {20}{20}}
-\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\sectionentry {14}{Viento: zonificación y presiones}{21}{Viento: zonificación y presiones}{0}}
-\headcommand {\slideentry {14}{0}{1}{21/21}{}{0}}
+\headcommand {\slideentry {6}{0}{3}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {14}{0}{2}{22/22}{}{0}}
+\headcommand {\beamer@sectionpages {19}{21}}
+\headcommand {\beamer@subsectionpages {19}{21}}
+\headcommand {\sectionentry {7}{Sistema estructural y materialidad}{22}{Sistema estructural y materialidad}{0}}
+\headcommand {\slideentry {7}{0}{1}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {14}{0}{3}{23/23}{}{0}}
+\headcommand {\beamer@sectionpages {22}{22}}
+\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\sectionentry {8}{Condiciones de apoyo}{23}{Condiciones de apoyo}{0}}
+\headcommand {\slideentry {8}{0}{1}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {14}{0}{4}{24/24}{}{0}}
+\headcommand {\beamer@sectionpages {23}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\sectionentry {9}{Modelo SAP2000}{24}{Modelo SAP2000}{0}}
+\headcommand {\slideentry {9}{0}{1}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {14}{0}{5}{25/25}{}{0}}
+\headcommand {\beamer@sectionpages {24}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\sectionentry {10}{Participación de masa modal}{25}{Participación de masa modal}{0}}
+\headcommand {\slideentry {10}{0}{1}{25/25}{}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {14}{0}{6}{26/26}{}{0}}
+\headcommand {\beamer@sectionpages {25}{25}}
+\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\sectionentry {11}{Cargas de diseño}{26}{Cargas de diseño}{0}}
+\headcommand {\slideentry {11}{0}{1}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {21}{26}}
-\headcommand {\beamer@subsectionpages {21}{26}}
-\headcommand {\sectionentry {15}{Viento: solicitaciones globales}{27}{Viento: solicitaciones globales}{0}}
-\headcommand {\slideentry {15}{0}{1}{27/27}{}{0}}
+\headcommand {\beamer@sectionpages {26}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\sectionentry {12}{Combinaciones de carga}{27}{Combinaciones de carga}{0}}
+\headcommand {\slideentry {12}{0}{1}{27/27}{}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {15}{0}{2}{28/28}{}{0}}
+\headcommand {\slideentry {12}{0}{2}{28/28}{}{0}}
 \headcommand {\beamer@framepages {28}{28}}
 \headcommand {\beamer@sectionpages {27}{28}}
 \headcommand {\beamer@subsectionpages {27}{28}}
-\headcommand {\sectionentry {16}{Sismo: NCh2369.Of2003}{29}{Sismo: NCh2369.Of2003}{0}}
-\headcommand {\slideentry {16}{0}{1}{29/29}{}{0}}
+\headcommand {\sectionentry {13}{Viento: NCh432.Of1971}{29}{Viento: NCh432.Of1971}{0}}
+\headcommand {\slideentry {13}{0}{1}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@sectionpages {29}{29}}
-\headcommand {\beamer@subsectionpages {29}{29}}
-\headcommand {\sectionentry {17}{Sismo: NCh2369:2025}{30}{Sismo: NCh2369:2025}{0}}
-\headcommand {\slideentry {17}{0}{1}{30/30}{}{0}}
+\headcommand {\slideentry {13}{0}{2}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@sectionpages {30}{30}}
-\headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\sectionentry {18}{Resultados: Sismo — Comparativa de espectros}{31}{Resultados: Sismo — Comparativa de espectros}{0}}
-\headcommand {\slideentry {18}{0}{1}{31/31}{}{0}}
+\headcommand {\slideentry {13}{0}{3}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@sectionpages {31}{31}}
-\headcommand {\beamer@subsectionpages {31}{31}}
-\headcommand {\sectionentry {19}{Resultados: Sismo — Reacciones en la Base}{32}{Resultados: Sismo — Reacciones en la Base}{0}}
-\headcommand {\slideentry {19}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@sectionpages {29}{31}}
+\headcommand {\beamer@subsectionpages {29}{31}}
+\headcommand {\sectionentry {14}{Viento: NCh432:2025}{32}{Viento: NCh432:2025}{0}}
+\headcommand {\slideentry {14}{0}{1}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@sectionpages {32}{32}}
-\headcommand {\beamer@subsectionpages {32}{32}}
-\headcommand {\sectionentry {20}{Resultados: Desplazamientos}{33}{Resultados: Desplazamientos}{0}}
-\headcommand {\slideentry {20}{0}{1}{33/33}{}{0}}
+\headcommand {\slideentry {14}{0}{2}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {20}{0}{2}{34/34}{}{0}}
+\headcommand {\slideentry {14}{0}{3}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\beamer@sectionpages {33}{34}}
-\headcommand {\beamer@subsectionpages {33}{34}}
-\headcommand {\sectionentry {21}{Resultados: Factores de Utilización}{35}{Resultados: Factores de Utilización}{0}}
-\headcommand {\slideentry {21}{0}{1}{35/35}{}{0}}
+\headcommand {\beamer@sectionpages {32}{34}}
+\headcommand {\beamer@subsectionpages {32}{34}}
+\headcommand {\sectionentry {15}{Viento: zonificación y presiones}{35}{Viento: zonificación y presiones}{0}}
+\headcommand {\slideentry {15}{0}{1}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@sectionpages {35}{35}}
-\headcommand {\beamer@subsectionpages {35}{35}}
-\headcommand {\sectionentry {22}{Análisis comparativo}{36}{Análisis comparativo}{0}}
-\headcommand {\slideentry {22}{0}{1}{36/36}{}{0}}
+\headcommand {\slideentry {15}{0}{2}{36/36}{}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {22}{0}{2}{37/37}{}{0}}
+\headcommand {\slideentry {15}{0}{3}{37/37}{}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {22}{0}{3}{38/38}{}{0}}
+\headcommand {\slideentry {15}{0}{4}{38/38}{}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {22}{0}{4}{39/39}{}{0}}
+\headcommand {\slideentry {15}{0}{5}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {22}{0}{5}{40/40}{}{0}}
+\headcommand {\slideentry {15}{0}{6}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {22}{0}{6}{41/41}{}{0}}
+\headcommand {\beamer@sectionpages {35}{40}}
+\headcommand {\beamer@subsectionpages {35}{40}}
+\headcommand {\sectionentry {16}{Viento: solicitaciones globales}{41}{Viento: solicitaciones globales}{0}}
+\headcommand {\slideentry {16}{0}{1}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {36}{41}}
-\headcommand {\beamer@sectionpages {36}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\gdef \inserttotalframenumber {41}}
+\headcommand {\slideentry {16}{0}{2}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@sectionpages {41}{42}}
+\headcommand {\beamer@subsectionpages {41}{42}}
+\headcommand {\sectionentry {17}{Sismo: NCh2369.Of2003}{43}{Sismo: NCh2369.Of2003}{0}}
+\headcommand {\slideentry {17}{0}{1}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {17}{0}{2}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@sectionpages {43}{44}}
+\headcommand {\beamer@subsectionpages {43}{44}}
+\headcommand {\sectionentry {18}{Sismo: NCh2369:2025}{45}{Sismo: NCh2369:2025}{0}}
+\headcommand {\slideentry {18}{0}{1}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {18}{0}{2}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {18}{0}{3}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@sectionpages {45}{47}}
+\headcommand {\beamer@subsectionpages {45}{47}}
+\headcommand {\sectionentry {19}{Resultados: Sismo — Comparativa de espectros}{48}{Resultados: Sismo — Comparativa de espectros}{0}}
+\headcommand {\slideentry {19}{0}{1}{48/48}{}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@sectionpages {48}{48}}
+\headcommand {\beamer@subsectionpages {48}{48}}
+\headcommand {\sectionentry {20}{Resultados: Sismo — Reacciones en la Base}{49}{Resultados: Sismo — Reacciones en la Base}{0}}
+\headcommand {\slideentry {20}{0}{1}{49/49}{}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@sectionpages {49}{49}}
+\headcommand {\beamer@subsectionpages {49}{49}}
+\headcommand {\sectionentry {21}{Resultados: Desplazamientos}{50}{Resultados: Desplazamientos}{0}}
+\headcommand {\slideentry {21}{0}{1}{50/50}{}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {21}{0}{2}{51/51}{}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\beamer@sectionpages {50}{51}}
+\headcommand {\beamer@subsectionpages {50}{51}}
+\headcommand {\sectionentry {22}{Resultados: Factores de Utilización}{52}{Resultados: Factores de Utilización}{0}}
+\headcommand {\slideentry {22}{0}{1}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@sectionpages {52}{52}}
+\headcommand {\beamer@subsectionpages {52}{52}}
+\headcommand {\sectionentry {23}{Análisis comparativo}{53}{Análisis comparativo}{0}}
+\headcommand {\slideentry {23}{0}{1}{53/53}{}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {23}{0}{2}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {23}{0}{3}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {23}{0}{4}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {23}{0}{5}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {23}{0}{6}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@subsectionpages {53}{58}}
+\headcommand {\beamer@sectionpages {53}{58}}
+\headcommand {\beamer@documentpages {58}}
+\headcommand {\gdef \inserttotalframenumber {58}}
