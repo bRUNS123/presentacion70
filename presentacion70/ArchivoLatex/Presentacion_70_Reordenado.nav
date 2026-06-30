@@ -175,16 +175,23 @@
 \headcommand {\beamer@framepages {53}{53}}
 \headcommand {\slideentry {23}{0}{2}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {23}{0}{3}{55/55}{}{0}}
+\headcommand {\beamer@sectionpages {53}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\sectionentry {24}{Idealización y costos}{55}{Idealización y costos}{0}}
+\headcommand {\slideentry {24}{0}{1}{55/55}{}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {23}{0}{4}{56/56}{}{0}}
+\headcommand {\slideentry {24}{0}{2}{56/56}{}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\slideentry {23}{0}{5}{57/57}{}{0}}
+\headcommand {\slideentry {24}{0}{3}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {23}{0}{6}{58/58}{}{0}}
+\headcommand {\slideentry {24}{0}{4}{58/58}{}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@partpages {1}{58}}
-\headcommand {\beamer@subsectionpages {53}{58}}
-\headcommand {\beamer@sectionpages {53}{58}}
-\headcommand {\beamer@documentpages {58}}
-\headcommand {\gdef \inserttotalframenumber {58}}
+\headcommand {\slideentry {24}{0}{5}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {24}{0}{6}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@partpages {1}{60}}
+\headcommand {\beamer@subsectionpages {55}{60}}
+\headcommand {\beamer@sectionpages {55}{60}}
+\headcommand {\beamer@documentpages {60}}
+\headcommand {\gdef \inserttotalframenumber {60}}

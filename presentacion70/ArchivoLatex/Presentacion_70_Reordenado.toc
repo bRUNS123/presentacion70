@@ -23,3 +23,4 @@
 \beamer@sectionintoc {21}{Resultados: Desplazamientos}{50}{0}{21}
 \beamer@sectionintoc {22}{Resultados: Factores de Utilización}{52}{0}{22}
 \beamer@sectionintoc {23}{Análisis comparativo}{53}{0}{23}
+\beamer@sectionintoc {24}{Idealización y costos}{55}{0}{24}

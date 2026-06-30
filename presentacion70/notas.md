@@ -1,40 +1,45 @@
-# Notas — Presentación 70% (Reordenado)
+# Notas — Presentación (Examen de Título)
 
 ## ✅ LISTO
-- 3. ~~Mostrar metodología desglosada (etapas 1–5) en varias diapositivas.~~
-- 4. ~~Mencionar condiciones de apoyo (P1 empotrado / P2 articulado + figura + tabla).~~
-- 5. ~~Mencionar cargas muertas (costaneras).~~ *(mencionadas; valor de peso aún "[pendiente]" — ver Pendiente #5b)*
-- 6. ~~Explicación desarrollo Espectro de Diseño (2003 y 2025): fórmulas (Ec. 5-5 / Ec. 1a, 2, 3, 4).~~
-- 7. ~~Parámetros que dependen del suelo + Periodos T*x, T*y en diapositiva de análisis modal.~~
-- 8. ~~Espectro Referencia (2025): corte máximo (Cmáx) y mínimo (Cmín) marcados.~~
-- 10. ~~Mostrar Planta y Elevación en diapositivas separadas.~~
-- 12. ~~Cambiar "Falla" por "NO CUMPLE".~~
-- 13. ~~Mencionar que utilizamos ASD (NCh3171 / NCh427/1).~~
-- 14. ~~Figura 13 y 14 (viento Of.1971) cada una en su diapositiva.~~
-- 16. ~~Corregir nota NCh3171.Of2010 (versión 2017 oficializada en 2024).~~
-- 17. ~~Zonificación y presiones: rojos de variación → flechas (sin color).~~
-- 19. ~~Sismo NCh2369:2025: "s" en T*, líneas corte mín/máx, "Asimilación" → "homologación".~~
-- 20. ~~Explicar el cambio de suelo (clasificación 2003 vs 2025) — diapositiva nueva.~~
+- Título → **"Examen de Título"**; fecha → **30-06-2026**.
+- 3. ~~Metodología desglosada (etapas 1–5).~~
+- 4. ~~Condiciones de apoyo (P1 empotrado / P2 articulado + figura + tabla).~~
+- 5. ~~Cargas muertas (costaneras) mencionadas.~~ *(valor de peso aún "[pendiente]" — ver 5b)*
+- 6. ~~Desarrollo del Espectro de Diseño 2003 y 2025 (fórmulas).~~
+- 7. ~~Parámetros de suelo + T*x, T*y en análisis modal.~~
+- 8. ~~Espectro 2025: Cmáx y Cmín marcados (+ referencia y amplificado 0,7R₁).~~
+- 9. ~~Viento considerando paramentos/parapeto (amplificación f = H/h en fuerzas totales).~~
+- 10. ~~Planta y Elevación en diapositivas separadas.~~
+- 12. ~~"Falla" → "NO CUMPLE".~~
+- 13. ~~Mención de ASD (NCh3171 / NCh427/1).~~
+- 14. ~~Figura viento Of.1971 cada una en su diapositiva.~~
+- 16. ~~Nota NCh3171.Of2010 corregida.~~
+- 17. ~~Zonificación/presiones: rojos de variación → flechas.~~
+- 18. ~~Solicitaciones globales: "---" → 0 (y valores parapeto).~~
+- 19. ~~Sismo 2025: "s" en T*, líneas Cmín/Cmáx, "Asimilación" → "homologación".~~
+- 20. ~~Cambio de suelo (clasificación 2003 vs 2025) — diapositiva nueva.~~
+- 22. ~~Viento por tramos de altura (amplificación por parapeto f = H/h por pilar + zonas Z1–Z4).~~
+- **Viento — versión final:** q ref 68,47 → 51,00 kgf/m² (−26%); cortes basales con parapeto
+  Wx 41,5→21,6 / Wy 64,0→33,5 tonf; síntesis según tesis (cap. 4).
+- **Idealización del modelo** (7.6): nueva diapositiva (escalar TUBEST no basta; gobierna el pandeo).
+- **Peso estructural y costos** (7.7): nueva diapositiva.
+- **Conclusiones** (cap. 8): reemplazadas por las conclusiones finales de la tesis.
 
-## ⏳ PENDIENTE
-- 1. Imágenes muy pequeñas (pase global). *Parcial: varias ya se agrandaron al separarlas (planta/elevación, viento, discrepancia); falta el ajuste global de tamaños.*
+## ⏳ PENDIENTE (el usuario indicó que el resto está OK para la versión final)
+- 1. Imágenes muy pequeñas: ajuste global de tamaños (parcial; varias ya agrandadas).
 - 2. Mostrar Tabla 1 cuando se mencione (Viento).
-- 5b. Cargas muertas: cargar el **peso real de costaneras** (hoy "[pendiente]").
-- 9. Analizar viento considerando paramentos.
-- 11. Pilar G1: presión biaxial (verificación con fuerza lateral; chequear si la carga lateral de la norma nueva afecta).
-- 15. Figura 19 (Zonificación NCh432:2025): sacar zonas NC y mejorar identificación "ZONA III-A".
-- 18. Viento — solicitaciones globales: donde se anula poner 0 (o valor), no una raya "---".
-- 21. Mencionar de dónde vienen los parámetros (modelo vs tabla/normativa). *Parcial: hecho en tablas de sismo; falta en viento/otros.*
-- 22. Viento: calcular por alturas distintas (tramos).
-- 23. Recubrimiento de techo y paredes sin responsabilidad estructural (el esqueleto toma la carga).
+- 5b. Cargar el **peso real de costaneras** (hoy "[pendiente]").
+- 11. Pilar G1: presión biaxial (verificación con fuerza lateral nueva).
+- 15. Figura zonificación NCh432:2025: sacar zonas NC y mejorar "ZONA III-A".
+- 21. Origen de parámetros (modelo vs tabla/normativa): parcial (hecho en sismo).
+- 23. Recubrimiento techo/paredes sin responsabilidad estructural.
 
-## ⚠️ ERRORES / INCONSISTENCIAS DETECTADAS
-- **E1. Períodos T\*:** ~~Masa Modal indica T_x=0,2788 s y T_y=0,3507 s, pero las slides de Sismo usaban T*x=0,22 / T*y=0,34.~~ **CORREGIDO**: T*x=0,2788 s y T*y=0,3507 s (mismos para 2003 y 2025) en Sismo 2025 y Comparativa.
+## ⚠️ ERRORES / INCONSISTENCIAS
+- **E1. Períodos T\*** — ✅ CORREGIDO: T*x=0,2788 / T*y=0,3507 s (mismos para 2003 y 2025).
+- **E3. Conclusiones (F.U.)** — ✅ RESUELTO: conclusiones reemplazadas por las finales de la tesis.
+- **E4. Conclusiones (desplazamientos)** — ✅ RESUELTO: ídem (texto final de la tesis).
+- **E2. Vigas 2** — ⏳ por confirmar: F.U. tabla (slide 52) da Instalado 0,146 con [] 200×200×3;
+  Variación (slide 53) da 0,089 con TBC 250×150×3. No coinciden valor ni perfil.
 
-### Por corregir
-- **E2. Vigas 2:** la tabla F.U. (slide 52) da Instalado = 0,146 con perfil [] 200×200×3; la tabla de Variación (slide 53) da 0,089 con perfil TBC 250×150×3. No coinciden valor ni perfil del Instalado. → confirmar el correcto.
-- **E3. Conclusiones (F.U.):** dice "diagonales horizontales [1,464]" (valor inexistente; la diag. horizontal real es 0,737 = OK, no falla) y "vigas [1,353]" (ese es el Instalado; el Actualizado es 1,173). Los que realmente NO CUMPLEN (Actualizado) son: Columnas 1 (1,474), Diagonales vert. (2,265) y Vigas 1 (1,173).
-- **E4. Conclusiones (desplazamientos):** dice "superando los 11,14 mm del viento", pero el máximo de viento es 9,02 mm (instalado) / 2,96 mm (actualizado). El 11,14 no aparece en ninguna tabla.
-
-### 🧹 Limpieza
-- Figuras huérfanas sin uso: `fig04.png` y `fig05.png` (reemplazadas por los espectros nuevos) — se pueden borrar.
+## 🧹 Limpieza
+- Figuras huérfanas: `fig04.png` y `fig05.png` (reemplazadas por los espectros nuevos).

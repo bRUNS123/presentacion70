@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.16)  16 JUN 2026 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.16)  30 JUN 2026 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,15 +1405,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 169.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.81372pt
-(hyperref)                removed on input line 169.
-
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1589,31 +1580,27 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \. on input line 169.
 LaTeX Info: Redefining \% on input line 169.
  (Presentacion_70_Reordenado.nav)
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-169.
-
-(C:\Users\bRUNS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \vbox (0.5412pt too high) detected at line 182
- []
-
-<../Figuras/Lamina.png, id=104, 963.6pt x 542.025pt>
+<../Figuras/Lamina.png, id=108, 963.6pt x 542.025pt>
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
 Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 182.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
-[1
+ [1
 
 {C:/Users/bRUNS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/bRUN
-S/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/bRUNS/Ap
-pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <../Figuras/Lamina.p
-ng>] (Presentacion_70_Reordenado.toc
+S/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <../Figuras/Lamin
+a.png>]
+(Presentacion_70_Reordenado.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+3.
+
+(C:\Users\bRUNS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 193.
 
@@ -1669,8 +1656,8 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 193.
 
 [2
 
-]
-<../Figuras/slide03_fig01.png, id=175, 2107.875pt x 1067.99pt>
+{C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+<../Figuras/slide03_fig01.png, id=180, 2107.875pt x 1067.99pt>
 File: ../Figuras/slide03_fig01.png Graphic file (type png)
 <use ../Figuras/slide03_fig01.png>
 Package pdftex.def Info: ../Figuras/slide03_fig01.png  used on input line 230.
@@ -1679,7 +1666,7 @@ File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
 Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 230.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
- [3
+[3
 
  <../Figuras/slide03_fig01.png>]
 Overfull \vbox (0.3369pt too high) detected at line 268
@@ -1712,7 +1699,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 298.
 
 {C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
 ]
-<../Figuras/diapo6.png, id=206, 415.5525pt x 498.36188pt>
+<../Figuras/diapo6.png, id=211, 415.5525pt x 498.36188pt>
 File: ../Figuras/diapo6.png Graphic file (type png)
 <use ../Figuras/diapo6.png>
 Package pdftex.def Info: ../Figuras/diapo6.png  used on input line 315.
@@ -1724,7 +1711,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 315.
  [6
 
  <../Figuras/diapo6.png>]
-<../Figuras/metodologia.png, id=212, 891.33pt x 615.80063pt>
+<../Figuras/metodologia.png, id=217, 891.33pt x 615.80063pt>
 File: ../Figuras/metodologia.png Graphic file (type png)
 <use ../Figuras/metodologia.png>
 Package pdftex.def Info: ../Figuras/metodologia.png  used on input line 327.
@@ -1772,7 +1759,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 503.
  [12
 
 ]
-<../Figuras/slide12_fig02.png, id=246, 1606.0pt x 1284.8pt>
+<../Figuras/slide12_fig02.png, id=251, 1606.0pt x 1284.8pt>
 File: ../Figuras/slide12_fig02.png Graphic file (type png)
 <use ../Figuras/slide12_fig02.png>
 Package pdftex.def Info: ../Figuras/slide12_fig02.png  used on input line 541.
@@ -1803,12 +1790,12 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 554.
 [14
 
 ]
-<../Figuras/slide13_fig03.png, id=257, 4047.12pt x 1996.45876pt>
+<../Figuras/slide13_fig03.png, id=262, 4047.12pt x 1996.45876pt>
 File: ../Figuras/slide13_fig03.png Graphic file (type png)
 <use ../Figuras/slide13_fig03.png>
 Package pdftex.def Info: ../Figuras/slide13_fig03.png  used on input line 591.
 (pdftex.def)             Requested size: 138.3907pt x 68.26863pt.
-<../Figuras/slide13_fig04.png, id=258, 1806.75pt x 1276.77pt>
+<../Figuras/slide13_fig04.png, id=263, 1806.75pt x 1276.77pt>
 File: ../Figuras/slide13_fig04.png Graphic file (type png)
 <use ../Figuras/slide13_fig04.png>
 Package pdftex.def Info: ../Figuras/slide13_fig04.png  used on input line 591.
@@ -1825,7 +1812,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 591.
 
 {C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
  <../Figuras/slide13_fig03.png> <../Figuras/slide13_fig04.png>]
-<../Figuras/slide14_fig05.png.png, id=266, 563.10374pt x 403.9893pt>
+<../Figuras/slide14_fig05.png.png, id=271, 563.10374pt x 403.9893pt>
 File: ../Figuras/slide14_fig05.png.png Graphic file (type png)
 <use ../Figuras/slide14_fig05.png.png>
 Package pdftex.def Info: ../Figuras/slide14_fig05.png.png  used on input line 6
@@ -1846,7 +1833,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 604.
 [16
 
  <../Figuras/slide14_fig05.png.png>]
-<../Figuras/slide14_fig06.png, id=273, 574.5465pt x 234.3957pt>
+<../Figuras/slide14_fig06.png, id=278, 574.5465pt x 234.3957pt>
 File: ../Figuras/slide14_fig06.png Graphic file (type png)
 <use ../Figuras/slide14_fig06.png>
 Package pdftex.def Info: ../Figuras/slide14_fig06.png  used on input line 617.
@@ -1858,7 +1845,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 617.
  [17
 
  <../Figuras/slide14_fig06.png>]
-<../Figuras/slide15_fig08.png, id=283, 1090.0725pt x 1453.43pt>
+<../Figuras/slide15_fig08.png, id=288, 1090.0725pt x 1453.43pt>
 File: ../Figuras/slide15_fig08.png Graphic file (type png)
 <use ../Figuras/slide15_fig08.png>
 Package pdftex.def Info: ../Figuras/slide15_fig08.png  used on input line 654.
@@ -1878,7 +1865,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 677.
  [19
 
 ]
-<../Figuras/slide16_fig09.png, id=294, 563.10374pt x 403.9893pt>
+<../Figuras/slide16_fig09.png, id=299, 563.10374pt x 403.9893pt>
 File: ../Figuras/slide16_fig09.png Graphic file (type png)
 <use ../Figuras/slide16_fig09.png>
 Package pdftex.def Info: ../Figuras/slide16_fig09.png  used on input line 690.
@@ -1894,7 +1881,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 690.
 [20
 
  <../Figuras/slide16_fig09.png>]
-<../Figuras/slide16_fig10.png, id=301, 686.565pt x 176.45924pt>
+<../Figuras/slide16_fig10.png, id=306, 686.565pt x 176.45924pt>
 File: ../Figuras/slide16_fig10.png Graphic file (type png)
 <use ../Figuras/slide16_fig10.png>
 Package pdftex.def Info: ../Figuras/slide16_fig10.png  used on input line 703.
@@ -1906,7 +1893,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 703.
  [21
 
  <../Figuras/slide16_fig10.png>]
-<../Figuras/fig_lt01.png, id=308, 1810.765pt x 875.27pt>
+<../Figuras/fig_lt01.png, id=313, 1810.765pt x 875.27pt>
 File: ../Figuras/fig_lt01.png Graphic file (type png)
 <use ../Figuras/fig_lt01.png>
 Package pdftex.def Info: ../Figuras/fig_lt01.png  used on input line 743.
@@ -1919,7 +1906,7 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 743.
 [22
 
  <../Figuras/fig_lt01.png (PNG copy)>]
-<../Figuras/apoyos.png, id=314, 1411.52344pt x 346.29375pt>
+<../Figuras/apoyos.png, id=319, 1411.52344pt x 346.29375pt>
 File: ../Figuras/apoyos.png Graphic file (type png)
 <use ../Figuras/apoyos.png>
 Package pdftex.def Info: ../Figuras/apoyos.png  used on input line 788.
@@ -1935,12 +1922,12 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 788.
 [23
 
  <../Figuras/apoyos.png>]
-<../Figuras/slide16_img6.png, id=321, 1006.51031pt x 822.82407pt>
+<../Figuras/slide16_img6.png, id=326, 1006.51031pt x 822.82407pt>
 File: ../Figuras/slide16_img6.png Graphic file (type png)
 <use ../Figuras/slide16_img6.png>
 Package pdftex.def Info: ../Figuras/slide16_img6.png  used on input line 833.
 (pdftex.def)             Requested size: 83.51729pt x 68.27554pt.
-<../Figuras/slide16_img7.png, id=322, 530.73282pt x 199.49532pt>
+<../Figuras/slide16_img7.png, id=327, 530.73282pt x 199.49532pt>
 File: ../Figuras/slide16_img7.png Graphic file (type png)
 <use ../Figuras/slide16_img7.png>
 Package pdftex.def Info: ../Figuras/slide16_img7.png  used on input line 833.
@@ -1989,326 +1976,338 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 974.
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 994.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 995.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [29
 
 ]
-<../Figuras/fig02.png, id=357, 351.9549pt x 260.53336pt>
+<../Figuras/fig02.png, id=362, 351.9549pt x 260.53336pt>
 File: ../Figuras/fig02.png Graphic file (type png)
 <use ../Figuras/fig02.png>
-Package pdftex.def Info: ../Figuras/fig02.png  used on input line 1007.
+Package pdftex.def Info: ../Figuras/fig02.png  used on input line 1008.
 (pdftex.def)             Requested size: 227.10852pt x 168.11626pt.
 
-Overfull \vbox (20.17839pt too high) detected at line 1007
+Overfull \vbox (20.17839pt too high) detected at line 1008
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1007.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1008.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [30
 
  <../Figuras/fig02.png>]
-<../Figuras/nch71_fig9.png, id=364, 495.8525pt x 627.34375pt>
+<../Figuras/nch71_fig9.png, id=369, 495.8525pt x 627.34375pt>
 File: ../Figuras/nch71_fig9.png Graphic file (type png)
 <use ../Figuras/nch71_fig9.png>
-Package pdftex.def Info: ../Figuras/nch71_fig9.png  used on input line 1020.
+Package pdftex.def Info: ../Figuras/nch71_fig9.png  used on input line 1021.
 (pdftex.def)             Requested size: 132.87567pt x 168.11192pt.
 
-Overfull \vbox (16.21976pt too high) detected at line 1020
+Overfull \vbox (16.21976pt too high) detected at line 1021
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1020.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1021.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [31
 
  <../Figuras/nch71_fig9.png>]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1041.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1042.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [32
 
 ]
-<../Figuras/slide06_img4.png, id=376, 138.627pt x 129.7575pt>
+<../Figuras/slide06_img4.png, id=381, 138.627pt x 129.7575pt>
 File: ../Figuras/slide06_img4.png Graphic file (type png)
 <use ../Figuras/slide06_img4.png>
-Package pdftex.def Info: ../Figuras/slide06_img4.png  used on input line 1054.
+Package pdftex.def Info: ../Figuras/slide06_img4.png  used on input line 1055.
 (pdftex.def)             Requested size: 179.61644pt x 168.12439pt.
 
-Overfull \vbox (17.78772pt too high) detected at line 1054
+Overfull \vbox (17.78772pt too high) detected at line 1055
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1054.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1055.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [33
 
  <../Figuras/slide06_img4.png>]
-<../Figuras/nch25_fig4_1.png, id=383, 520.94624pt x 695.59875pt>
+<../Figuras/nch25_fig4_1.png, id=388, 520.94624pt x 695.59875pt>
 File: ../Figuras/nch25_fig4_1.png Graphic file (type png)
 <use ../Figuras/nch25_fig4_1.png>
-Package pdftex.def Info: ../Figuras/nch25_fig4_1.png  used on input line 1067.
+Package pdftex.def Info: ../Figuras/nch25_fig4_1.png  used on input line 1068.
 (pdftex.def)             Requested size: 125.90404pt x 168.11464pt.
 
-Overfull \vbox (20.32689pt too high) detected at line 1067
+Overfull \vbox (20.32689pt too high) detected at line 1068
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1067.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1068.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [34
 
  <../Figuras/nch25_fig4_1.png>]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1115.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1116.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [35
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1167.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1168.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [36
 
 ]
-<../Figuras/wind_Wx.png, id=401, 2061.20062pt x 858.95906pt>
+<../Figuras/wind_Wx.png, id=406, 2061.20062pt x 858.95906pt>
 File: ../Figuras/wind_Wx.png Graphic file (type png)
 <use ../Figuras/wind_Wx.png>
-Package pdftex.def Info: ../Figuras/wind_Wx.png  used on input line 1180.
+Package pdftex.def Info: ../Figuras/wind_Wx.png  used on input line 1181.
 (pdftex.def)             Requested size: 341.37294pt x 142.25949pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1180.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1181.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [37
 
  <../Figuras/wind_Wx.png>]
-<../Figuras/wind_Wy.png, id=409, 2052.16687pt x 934.24031pt>
+<../Figuras/wind_Wy.png, id=414, 2052.16687pt x 934.24031pt>
 File: ../Figuras/wind_Wy.png Graphic file (type png)
 <use ../Figuras/wind_Wy.png>
-Package pdftex.def Info: ../Figuras/wind_Wy.png  used on input line 1193.
+Package pdftex.def Info: ../Figuras/wind_Wy.png  used on input line 1194.
 (pdftex.def)             Requested size: 312.47746pt x 142.25404pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1193.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1194.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 
 [38
 
  <../Figuras/wind_Wy.png>]
-<../Figuras/fig_qz_zonas.png, id=416, 564.6696pt x 311.7246pt>
+<../Figuras/fig_qz_zonas.png, id=421, 564.6696pt x 311.7246pt>
 File: ../Figuras/fig_qz_zonas.png Graphic file (type png)
 <use ../Figuras/fig_qz_zonas.png>
-Package pdftex.def Info: ../Figuras/fig_qz_zonas.png  used on input line 1213.
+Package pdftex.def Info: ../Figuras/fig_qz_zonas.png  used on input line 1214.
 (pdftex.def)             Requested size: 251.51965pt x 138.85257pt.
 
-Overfull \vbox (4.94308pt too high) detected at line 1213
+Overfull \vbox (4.94308pt too high) detected at line 1214
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1213.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1214.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [39
 
  <../Figuras/fig_qz_zonas.png>]
-Overfull \vbox (4.63264pt too high) detected at line 1246
+Overfull \vbox (4.63264pt too high) detected at line 1247
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1246.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1247.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [40
 
 ]
-Overfull \vbox (36.43924pt too high) detected at line 1286
+Overfull \vbox (36.43924pt too high) detected at line 1287
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1286.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1287.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [41
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-317.
- (C:\Users\bRUNS\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \vbox (1.56187pt too high) detected at line 1317
+Overfull \vbox (11.06187pt too high) detected at line 1318
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1317.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1318.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [42
 
 ]
-<../Figuras/espectro_2003_H.png, id=439, 404.712pt x 289.08pt>
+<../Figuras/espectro_2003_H.png, id=443, 404.712pt x 289.08pt>
 File: ../Figuras/espectro_2003_H.png Graphic file (type png)
 <use ../Figuras/espectro_2003_H.png>
 Package pdftex.def Info: ../Figuras/espectro_2003_H.png  used on input line 135
-8.
+9.
 (pdftex.def)             Requested size: 167.29776pt x 119.49838pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1358.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1359.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [43
 
  <../Figuras/espectro_2003_H.png>]
-<../Figuras/espectro_2003_V.png, id=446, 404.712pt x 289.08pt>
+<../Figuras/espectro_2003_V.png, id=450, 404.712pt x 289.08pt>
 File: ../Figuras/espectro_2003_V.png Graphic file (type png)
 <use ../Figuras/espectro_2003_V.png>
 Package pdftex.def Info: ../Figuras/espectro_2003_V.png  used on input line 138
-8.
+9.
 (pdftex.def)             Requested size: 167.29776pt x 119.49838pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1388.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1389.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [44
 
  <../Figuras/espectro_2003_V.png>]
-<../Figuras/espectro_2025_H.png, id=454, 419.166pt x 289.08pt>
+<../Figuras/espectro_2025_H.png, id=458, 419.166pt x 289.08pt>
 File: ../Figuras/espectro_2025_H.png Graphic file (type png)
 <use ../Figuras/espectro_2025_H.png>
 Package pdftex.def Info: ../Figuras/espectro_2025_H.png  used on input line 143
-7.
+8.
 (pdftex.def)             Requested size: 173.27267pt x 119.49838pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1437.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1438.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [45
 
  <../Figuras/espectro_2025_H.png>]
-Overfull \vbox (26.2361pt too high) detected at line 1489
+Overfull \vbox (26.2361pt too high) detected at line 1490
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1489.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1490.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [46
 
 ]
-<../Figuras/espectro_2025_V.png, id=465, 419.166pt x 289.08pt>
+<../Figuras/espectro_2025_V.png, id=470, 419.166pt x 289.08pt>
 File: ../Figuras/espectro_2025_V.png Graphic file (type png)
 <use ../Figuras/espectro_2025_V.png>
 Package pdftex.def Info: ../Figuras/espectro_2025_V.png  used on input line 152
-2.
+3.
 (pdftex.def)             Requested size: 173.27267pt x 119.49838pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1522.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1523.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [47
 
  <../Figuras/espectro_2025_V.png>]
-<../Figuras/espectros_comp.png, id=472, 390.258pt x 260.172pt>
+<../Figuras/espectros_comp.png, id=477, 390.258pt x 260.172pt>
 File: ../Figuras/espectros_comp.png Graphic file (type png)
 <use ../Figuras/espectros_comp.png>
-Package pdftex.def Info: ../Figuras/espectros_comp.png  used on input line 1563
+Package pdftex.def Info: ../Figuras/espectros_comp.png  used on input line 1564
 .
 (pdftex.def)             Requested size: 196.03903pt x 130.69305pt.
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1563.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1564.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [48
 
  <../Figuras/espectros_comp.png>]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1599.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1600.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [49
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 1632.
+(Font)              <10.95> on input line 1633.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1632.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1633.
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1632.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1633.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [50
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1655.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1656.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [51
 
 ]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+703.
+
+(C:\Users\bRUNS\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1702.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1703.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [52
 
 ]
-Overfull \vbox (6.46158pt too high) detected at line 1737
+Overfull \vbox (6.46158pt too high) detected at line 1738
  []
 
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1737.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1738.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
 [53
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1772.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1773.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [54
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1788.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1815.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [55
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1816.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1835.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [56
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1843.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1864.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [57
 
 ]
-Overfull \vbox (0.5412pt too high) detected at line 1852
- []
-
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1852.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1892.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
-[58
+ [58
+
+]
+File: ../Figuras/Lamina.png Graphic file (type png)
+<use ../Figuras/Lamina.png>
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1919.
+(pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
+ [59
+
+]
+File: ../Figuras/Lamina.png Graphic file (type png)
+<use ../Figuras/Lamina.png>
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1928.
+(pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
+ [60
 
 ]
 \tf@nav=\write6
@@ -2332,14 +2331,14 @@ L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `Presentacion_70_Reordenado.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: A2361E0D2194A4850CE8FB226F77AFA6;4141.
+(rerunfilecheck)             Checksum: 08FBA7BCDA7F70C17A59AA73D1A8456E;4300.
  ) 
 Here is how much of TeX's memory you used:
- 34513 strings out of 467871
- 719853 string characters out of 5418375
- 1160476 words of memory out of 5000000
- 62549 multiletter control sequences out of 15000+600000
- 735221 words of font info for 119 fonts, out of 8000000 for 9000
+ 34524 strings out of 467871
+ 719951 string characters out of 5418375
+ 1161189 words of memory out of 5000000
+ 62555 multiletter control sequences out of 15000+600000
+ 734523 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,403b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
@@ -2365,9 +2364,9 @@ C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C
 Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/U
 sers/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
 am7.pfb>
-Output written on Presentacion_70_Reordenado.pdf (58 pages, 15992520 bytes).
+Output written on Presentacion_70_Reordenado.pdf (60 pages, 15992873 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 415 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 
