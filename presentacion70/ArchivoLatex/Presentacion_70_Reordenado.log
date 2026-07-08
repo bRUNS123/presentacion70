@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.16)  30 JUN 2026 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.16)  7 JUL 2026 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2270,42 +2270,42 @@ Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1773.
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1815.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1817.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [55
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1835.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1859.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [56
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1864.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1889.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [57
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1892.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1917.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [58
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1919.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1944.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [59
 
 ]
 File: ../Figuras/Lamina.png Graphic file (type png)
 <use ../Figuras/Lamina.png>
-Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1928.
+Package pdftex.def Info: ../Figuras/Lamina.png  used on input line 1953.
 (pdftex.def)             Requested size: 455.2446pt x 245.83604pt.
  [60
 
@@ -2334,10 +2334,10 @@ ged.
 (rerunfilecheck)             Checksum: 08FBA7BCDA7F70C17A59AA73D1A8456E;4300.
  ) 
 Here is how much of TeX's memory you used:
- 34524 strings out of 467871
- 719951 string characters out of 5418375
+ 34527 strings out of 467871
+ 719987 string characters out of 5418375
  1161189 words of memory out of 5000000
- 62555 multiletter control sequences out of 15000+600000
+ 62558 multiletter control sequences out of 15000+600000
  734523 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,403b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2363,10 +2363,11 @@ C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C
 /Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/
 Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/U
 sers/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
-am7.pfb>
-Output written on Presentacion_70_Reordenado.pdf (60 pages, 15992873 bytes).
+am10.pfb><C:/Users/bRUNS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/symbols/msam7.pfb>
+Output written on Presentacion_70_Reordenado.pdf (60 pages, 16002293 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
+ 691 PDF objects out of 1000 (max. 8388607)
  145 named destinations out of 1000 (max. 500000)
  423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

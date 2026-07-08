@@ -21,9 +21,11 @@
 - 22. ~~Viento por tramos de altura (amplificación por parapeto f = H/h por pilar + zonas Z1–Z4).~~
 - **Viento — versión final:** q ref 68,47 → 51,00 kgf/m² (−26%); cortes basales con parapeto
   Wx 41,5→21,6 / Wy 64,0→33,5 tonf; síntesis según tesis (cap. 4).
-- **Idealización del modelo** (7.6): nueva diapositiva (escalar TUBEST no basta; gobierna el pandeo).
-- **Peso estructural y costos** (7.7): nueva diapositiva.
-- **Conclusiones** (cap. 8): reemplazadas por las conclusiones finales de la tesis.
+- **Idealización del modelo** (7.6, versión final): el idealizado **sí cumple** con 5
+  sustituciones (Tabla 39; W 12×72 en vigas/columnas), 0/274 excede, razón máx 0,81.
+- **Peso estructural y costos** (7.7, versión final): **1.400 CLP/kg**; acero
+  59.784 → 116.185 kg (+94%); costo 83,7 → 162,7 M CLP; sobrecosto ~79 M (Tabla 42).
+- **Conclusiones** (cap. 8, versión final): adecuación viable por redimensionamiento + costo.
 
 ## ⏳ PENDIENTE (el usuario indicó que el resto está OK para la versión final)
 - 1. Imágenes muy pequeñas: ajuste global de tamaños (parcial; varias ya agrandadas).

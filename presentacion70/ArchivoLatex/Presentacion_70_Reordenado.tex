@@ -1782,35 +1782,37 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} [Anexo Fig
 \begin{frame}
 \ctitle{IDEALIZACIÓN DEL MODELO}
 \begin{columns}[T,totalwidth=\textwidth]
-  \column{0.55\textwidth}
+  \column{0.49\textwidth}
   \vspace{-1mm}
-  \begin{itemize}\scriptsize\setlength{\itemsep}{2.5mm}
-    \item Para los grupos que \alert{no cumplen} [F.U. $>1{,}0$] se planteó una idealización:
-          escalar los perfiles excedidos a secciones \alert{TUBEST mayores} conservando la
-          tipología [p. ej. TB $550\times200\times4$-$5\times3 \to$ TB $550\times225\times6\times3$].
-    \item Resultado: el F.U. disminuye, pero \alert{no lo suficiente} --- varios elementos
-          siguen sin cumplir, gobernados por $D+L_r$ y por el sismo amplificado.
-    \item Causa: el estado límite que gobierna es el \alert{pandeo} [lateral-torsional en
-          vigas, flexo-compresión en columnas], que depende de la longitud no arriostrada
-          $L_b \sim$ luz del vano. Como $L_b$ \alert{no cambia} al engrosar la sección, la
-          mejora se \alert{satura}: reforzar solo por sección es ineficiente para los
-          grandes vanos de la Nave~F.
+  \begin{itemize}\scriptsize\setlength{\itemsep}{1.8mm}
+    \item Modelo Actualizado: \alert{114 de 274} elementos [42\%] no cumplen
+          [F.U. $>1{,}0$], concentrados en \alert{5 grupos}.
+    \item Idealización: sustituir esos grupos por secciones mayores [catálogo \alert{TUBEST}
+          y \alert{AISC W}], con el \alert{mínimo acero} y conservando la tipología.
+    \item Causa raíz: el cajón $\square\,150\times150\times3$ [$A=17{,}6$~cm$^2$] quedó
+          subdimensionado en diagonales y columnas; los cajones de vigas, cortos en flexión.
+    \item En vigas, la flexión supera cualquier cajón $\Rightarrow$ se usa \alert{perfil W de
+          ala ancha} [W\,$12\times72$] para que no gobierne el pandeo lateral-torsional.
+    \item Resultado: \alert{0 de 274} exceden la unidad; razón máxima \alert{0,81} [Vigas 1]
+          $\Rightarrow$ \textcolor{verdeBox}{\textbf{cumple}}.
   \end{itemize}
-  \column{0.43\textwidth}
+  \column{0.50\textwidth}
   \centering
-  {\scriptsize\textbf{F.U. modelo idealizado:}}\\[2mm]
+  {\scriptsize\textbf{Sustitución de perfiles [Tabla 39]:}}\\[1.5mm]
   \fittab{\tablasize
-  \begin{tabular}{@{}lcc@{}}
+  \begin{tabular}{@{}llc@{}}
     \toprule
-    Grupo & F.U. & Estado \\
+    Grupo & Sección propuesta & D/C \\
     \midrule
-    Vigas 1    & 1,62 & \textcolor{red}{\textbf{NO CUMPLE}} \\
-    Columnas 1 & 1,42 & \textcolor{red}{\textbf{NO CUMPLE}} \\
-    Columnas 3 & 1,09 & \textcolor{red}{\textbf{NO CUMPLE}} \\
+    Diagonales vert. & TB $250\times225\times4\times3$ & $2{,}26\to0{,}52$ \\
+    Diagonal horiz.  & TC $300\times150\times3$        & $1{,}46\to0{,}69$ \\
+    Columnas 2       & TC $300\times150\times3$        & $1{,}92\to0{,}76$ \\
+    Columnas 1       & W $12\times72$                  & $1{,}47\to0{,}79$ \\
+    Vigas 1          & W $12\times72$                  & $1{,}35\to0{,}81$ \\
     \bottomrule
   \end{tabular}}\\[2mm]
-  {\scriptsize Aumentar la sección reduce el F.U. cada vez menos
-  $\Rightarrow$ solución insuficiente.}
+  {\scriptsize Verificación 2-pass NCh2369:2025 [combinaciones amplificadas $0{,}7R_1$].
+  Razón máx. final: \alert{0,81}.}
 \end{columns}
 \end{frame}
 
@@ -1819,19 +1821,41 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} [Anexo Fig
 %------------------------------------------------------------------
 \begin{frame}
 \ctitle{PESO ESTRUCTURAL Y COSTOS}
-\vspace{3mm}
-\begin{itemize}\small\setlength{\itemsep}{4mm}
-  \item Como \alert{ninguna} idealización basada solo en aumentar la sección logra el
-        cumplimiento, un análisis de \alert{peso y costo} de la adecuación \alert{no es
-        representativo} en esta etapa y queda fuera del alcance: comparar \$/kg de acero
-        frente a una solución que aún no cumple no entrega una conclusión económica válida.
-  \item La vía recomendada \alert{no es seguir aumentando secciones}, sino \alert{reducir las
-        longitudes efectivas}: incorporar \alert{arriostramientos o apoyos intermedios} que
-        disminuyan $L_b$ y la esbeltez. Al acortar los vanos, la capacidad al pandeo aumenta
-        de forma directa y se recupera el cumplimiento con perfiles menores.
-  \item Definida esa reconfiguración geométrica, sí sería posible cuantificar el \alert{peso
-        de acero adicional y el costo} [\$/kg] respecto de la estructura original.
-\end{itemize}
+\begin{columns}[T,totalwidth=\textwidth]
+  \column{0.50\textwidth}
+  \vspace{-1mm}
+  \begin{itemize}\scriptsize\setlength{\itemsep}{2.2mm}
+    \item Como la configuración idealizada \alert{sí cumple}, se cuantifica su acero y costo.
+          Solo cambian los \alert{5 grupos}; el resto se mantiene.
+    \item Precio de referencia: \alert{1.400 CLP/kg} de acero instalado [CYPE Chile, 2025;
+          rango $1.384$--$1.414$].
+    \item El acero del sistema principal pasa de \alert{59.784} a \alert{116.185 kg}
+          [\alert{+94\%}, prácticamente el doble].
+    \item Costo estimado: \alert{83,7 $\to$ 162,7 millones CLP}; sobrecosto de material
+          \alert{$\sim$79 millones}, concentrado en Vigas 1 y Columnas 1 [perfiles W\,$12\times72$].
+    \item Adecuación \alert{viable} sin alterar la geometría, pero \alert{casi duplica} el
+          acero. [Solo material; sin conexiones ni montaje.]
+  \end{itemize}
+  \column{0.48\textwidth}
+  \centering
+  {\scriptsize\textbf{Peso y costo total [Tabla 42]:}}\\[1.5mm]
+  \fittab{\tablasize
+  \begin{tabular}{@{}lrr@{}}
+    \toprule
+    Grupo & Peso act.$\to$ideal. [kg] & $\Delta$ costo \\
+    \midrule
+    Vigas 1          & 25.736 $\to$ 53.675 & +39,1 M \\
+    Columnas 1       & 15.414 $\to$ 36.316 & +29,3 M \\
+    Diagonal horiz.  & 9.096 $\to$ 14.317  & +7,3 M \\
+    Diagonales vert. & 1.194 $\to$ 2.759   & +2,2 M \\
+    Columnas 2       & 1.347 $\to$ 2.121   & +1,1 M \\
+    Resto            & 6.997 $\to$ 6.997   & 0 \\
+    \midrule
+    \textbf{TOTAL}   & \textbf{59.784 $\to$ 116.185} & \textbf{+79,0 M} \\
+    \bottomrule
+  \end{tabular}}\\[1.5mm]
+  {\scriptsize $\Delta$ costo en millones de CLP [$1.400$ CLP/kg].}
+\end{columns}
 \end{frame}
 
 %------------------------------------------------------------------
@@ -1852,14 +1876,15 @@ Presión neta $p = C\cdot q$, con $C$ el \alert{coeficiente de forma} [Anexo Fig
   \item \alert{Suficiencia del diseño original}: bajo el escenario Actualizado varios grupos
         del sistema resistente principal \alert{dejan de cumplir} [F.U. hasta $2{,}26$]. Es la
         actualización \alert{sísmica} --- no la de viento --- la que determina la intervención.
-  \item \alert{Adecuación}: aumentar solo las secciones TUBEST \alert{no logra} el
-        cumplimiento, porque gobierna el \alert{pandeo} asociado a los grandes vanos. Se
-        recomienda un \alert{replanteo geométrico} [arriostramientos / apoyos intermedios];
-        el análisis económico queda condicionado a esa reconfiguración.
+  \item \alert{Adecuación}: sustituyendo \alert{5 grupos} por secciones mayores [tubulares
+        TUBEST en diagonales/columnas y \alert{perfiles W de ala ancha} en vigas y columnas
+        principales] la estructura \alert{cumple} [0/274; razón máx $0{,}81$], sin alterar la
+        geometría. Su costo no es menor: el acero pasa de $59.784$ a $116.185$~kg [\alert{+94\%}],
+        con un sobrecosto de material $\sim$\alert{79 millones CLP}.
   \item \alert{Síntesis}: la Nave~F, satisfactoria bajo las normas con que fue concebida,
-        \alert{no cumple} las exigencias vigentes de 2025 --- principalmente por el incremento
-        sísmico. Su adecuación es factible, pero exige \alert{repensar la configuración
-        estructural} más que sobredimensionar los perfiles.
+        \alert{no cumple} las exigencias de 2025 [principalmente por el incremento sísmico],
+        pero su \alert{adecuación es viable} por redimensionamiento. La verificación completa
+        [deflexiones, distorsiones, conexiones] es la continuación natural del trabajo.
 \end{itemize}
 \end{frame}
 
